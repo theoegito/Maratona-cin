@@ -1,0 +1,3 @@
+# Preservar os bytes dos anexos, inclusive as quebras de linha.
+solucoes/*.cpp -text
+*.pdf binary

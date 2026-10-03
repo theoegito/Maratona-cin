@@ -1,0 +1,13 @@
+# Executáveis e arquivos de compilação
+*.exe
+*.o
+*.obj
+*.out
+programa
+a.out
+build/
+
+# Arquivos locais do editor
+.vscode/
+.idea/
+*~
