@@ -1,0 +1,287 @@
+{
+  "integridade": [
+    {
+      "arquivo": "solucoes/E.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/F.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/G.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/I.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/J.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/K.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/L.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/M.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/N.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/O.cpp",
+      "ok": true
+    }
+  ],
+  "compilacao": [
+    {
+      "grupo": "hw2-original",
+      "arquivo": "E.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "F.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "G.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "I.cpp",
+      "codigo": 0,
+      "avisos": "C:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\homework-2\\solucoes\\I.cpp: In function 'int main()':\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\homework-2\\solucoes\\I.cpp:38:23: warning: unused variable 'distancia_atual' [-Wunused-variable]\n   38 |             long long distancia_atual = 0;\n      |                       ^~~~~~~~~~~~~~~\n"
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "J.cpp",
+      "codigo": 0,
+      "avisos": "C:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\homework-2\\solucoes\\J.cpp: In function 'int main()':\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\homework-2\\solucoes\\J.cpp:34:44: warning: comparison of integer expressions of different signedness: 'long long int' and 'std::vector<long long int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]\n   34 |         while (num_grupos <= k && contador < lista_num.size()){\n      |                                   ~~~~~~~~~^~~~~~~~~~~~~~~~~~\n"
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "K.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "L.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "M.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "N.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "O.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "backtracking.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "binary_search_resposta.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "bitmask.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "bounds.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "next_permutation.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "pilha_monotonica.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "recursao_subset.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "sliding_window.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "sort_indices.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "sweep_line.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-template",
+      "arquivo": "two_pointers.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "A.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "B.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "C.cpp",
+      "codigo": 0,
+      "avisos": "C:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\C.cpp: In function 'int main()':\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\C.cpp:24:25: warning: comparison of integer expressions of different signedness: 'std::stack<int>::size_type' {aka 'long long unsigned int'} and 'long long int' [-Wsign-compare]\n   24 |     while(size(pilha_c) != n){\n      |           ~~~~~~~~~~~~~~^~~~\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\C.cpp:55:33: warning: comparison of integer expressions of different signedness: 'long long int' and 'std::vector<std::__cxx11::basic_string<char> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]\n   55 |         for (long long j = 0; j < size(operacoes); j++){\n      |                               ~~^~~~~~~~~~~~~~~~~\n"
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "D.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "E.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "I.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "K.cpp",
+      "codigo": 0,
+      "avisos": "C:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\K.cpp: In function 'int main()':\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\K.cpp:43:33: warning: 'bloco_atual' may be used uninitialized [-Wmaybe-uninitialized]\n   43 |                     bloco_atual += 1;\n      |                     ~~~~~~~~~~~~^~~~\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\K.cpp:13:19: note: 'bloco_atual' was declared here\n   13 |         long long bloco_atual;\n      |                   ^~~~~~~~~~~\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\K.cpp:42:17: warning: 'ultimo_numero' may be used uninitialized [-Wmaybe-uninitialized]\n   42 |                 if (ultimo_numero == bloco[j]){\n      |                 ^~\nC:\\Users\\theoe\\.codex\\.chatgpt-projects\\g-p-6abfb824bb7c819181f2145c502a4e5f\\maratona-cin\\solucoes\\K.cpp:16:14: note: 'ultimo_numero' was declared here\n   16 |         char ultimo_numero;\n      |              ^~~~~~~~~~~~~\n"
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "M.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-original",
+      "arquivo": "N.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-template",
+      "arquivo": "base.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-template",
+      "arquivo": "greedy_priority_queue.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-template",
+      "arquivo": "prefix_sum.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-template",
+      "arquivo": "sliding_window.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-template",
+      "arquivo": "sort_comparador.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "semana1-template",
+      "arquivo": "subarray_sum_map.cpp",
+      "codigo": 0,
+      "avisos": ""
+    }
+  ],
+  "testes_templates": {
+    "bounds": 80,
+    "sort_indices": 80,
+    "pilha_monotonica": 80,
+    "two_pointers": 80,
+    "sliding_window": 81,
+    "recursao_subset": 80,
+    "bitmask": 80,
+    "sweep_line": 80,
+    "binary_search_resposta": 81,
+    "next_permutation": 8,
+    "backtracking": 35
+  },
+  "testes_originais": {
+    "E": "passou; teste de execução, sem enunciado completo",
+    "F": "passou; teste de execução, sem enunciado completo",
+    "G": "passou; teste de execução, sem enunciado completo",
+    "I": "passou; teste de execução, sem enunciado completo",
+    "J": "passou; teste de execução, sem enunciado completo",
+    "K": "passou; teste de execução, sem enunciado completo",
+    "L": "passou; teste de execução, sem enunciado completo",
+    "M": "passou; teste de execução, sem enunciado completo",
+    "N": "passou; teste de execução, sem enunciado completo",
+    "O": "passou; teste de execução, sem enunciado completo"
+  }
+}

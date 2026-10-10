@@ -109,3 +109,14 @@ Os templates são exemplos adicionais de estudo. As hipóteses, formatos e custo
 5. Faça um commit explicando a mudança, como `Adiciona questão F e anotação sobre set`.
 
 Este repositório é um caderno de aprendizado. As regras da competição determinam quais materiais podem ser consultados durante a prova.
+
+
+## Contest: índice da segunda semana
+
+- [Homework 2: guia, consulta, templates e originais](homework-2/README.md)
+- [Complemento da primeira semana](guias/complemento-semana-1.md)
+- [Consulta rápida da segunda semana](homework-2/guias/consulta-rapida.md)
+- [PDF imprimível da segunda semana](homework-2/guias/consulta-rapida.pdf)
+- [Verificação e pendências do Homework 2](homework-2/verificacao/validacao.md)
+
+Todo o conteúdo anterior permanece preservado. A pasta solucoes/ continua sendo a primeira semana.

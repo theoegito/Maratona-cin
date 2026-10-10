@@ -1,0 +1,52 @@
+[
+  {
+    "arquivo": "solucoes/E.cpp",
+    "sha256": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
+    "bytes": 1239
+  },
+  {
+    "arquivo": "solucoes/F.cpp",
+    "sha256": "0a31f4d9f6aa2d08bc82985d048d5e101102cf48990bf5b42ade87e1e80be86d",
+    "bytes": 1066
+  },
+  {
+    "arquivo": "solucoes/G.cpp",
+    "sha256": "3cdee2349fd575bd9e49d05bc91662ef58fc8b609cc25111241bf4822a3c07fa",
+    "bytes": 1079
+  },
+  {
+    "arquivo": "solucoes/I.cpp",
+    "sha256": "22734f3d75c1feca969f3869825d5e41b700ddae8765072a3a16fb72f098e6b2",
+    "bytes": 1547
+  },
+  {
+    "arquivo": "solucoes/J.cpp",
+    "sha256": "e74693dcaf17989e1236b9805ee6e4b971ae317a2fa3fe190007f95ae3c1c372",
+    "bytes": 1344
+  },
+  {
+    "arquivo": "solucoes/K.cpp",
+    "sha256": "af962a7d41d856b60396a3e4b2019291e23370f07008997c04e6fe0ff5088d75",
+    "bytes": 779
+  },
+  {
+    "arquivo": "solucoes/L.cpp",
+    "sha256": "0b00ade027784679e9cc7be0abe984411e6eb58022ee63f0b61a21913e639d3e",
+    "bytes": 925
+  },
+  {
+    "arquivo": "solucoes/M.cpp",
+    "sha256": "c58a08e35b61f9f7e4172fe6e7be19b1b88db43b04f8613b1e7040e0d4f9efba",
+    "bytes": 908
+  },
+  {
+    "arquivo": "solucoes/N.cpp",
+    "sha256": "5dad03d4b4c3d2a7a5cf9e73c10157f537d066a5f8d6ceebef4987cb168f032b",
+    "bytes": 499
+  },
+  {
+    "arquivo": "solucoes/O.cpp",
+    "sha256": "5343a0d5372404b68514c69e8692ebf5bbc72bfed1d3a70e886fc2ac930b1151",
+    "bytes": 1122
+  }
+]

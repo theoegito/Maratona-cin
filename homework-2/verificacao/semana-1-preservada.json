@@ -1,0 +1,120 @@
+{
+  "commit_base": "5b2436c19d1cdadfce45eb78212cd34b779d2d18",
+  "arquivos": [
+    {
+      "arquivo": ".gitattributes",
+      "estado": "conteúdo anterior integral; apenas acréscimo ao final",
+      "sha256_local": "0877a5c393e87e1d04de6eabecab47bdfb29ea171b1365334e0ac12b3ec13252"
+    },
+    {
+      "arquivo": ".gitignore",
+      "estado": "inalterado",
+      "sha256_local": "73c8a167a6fa69ce637283cba2f1a479e37397528b0c7a8e6b4746a878a7973f"
+    },
+    {
+      "arquivo": "README.md",
+      "estado": "conteúdo anterior integral; apenas acréscimo ao final",
+      "sha256_local": "3d981519437e46ec9c6c372c79ba3d9569abac1d7891e7a2a139cc588bb984bd"
+    },
+    {
+      "arquivo": "guias/consulta-rapida.md",
+      "estado": "inalterado",
+      "sha256_local": "0953a1703ce2e56b8aa0b2f607ac728e7dd8b485e3a36ac1a4abaa3de470606f"
+    },
+    {
+      "arquivo": "guias/consulta-rapida.pdf",
+      "estado": "inalterado",
+      "sha256_local": "23c54c514ab00b66d0f4e4f3623181b25bc6963c70a8f7f310fd917232a686b4"
+    },
+    {
+      "arquivo": "guias/guia-cpp.md",
+      "estado": "inalterado",
+      "sha256_local": "0dfe1f25a03c480ebf9414bb2e6b282f043e9a7072562439bb405f468eee98b0"
+    },
+    {
+      "arquivo": "solucoes/A.cpp",
+      "estado": "inalterado",
+      "sha256_local": "3d5aca472f9b472aa793c4ea8c6722972f37792fb062134fd0c8958bab4d7886"
+    },
+    {
+      "arquivo": "solucoes/B.cpp",
+      "estado": "inalterado",
+      "sha256_local": "b67593f84645269880ef968c3791488f4dc973cfa91d9e6d8cc836e3620850d5"
+    },
+    {
+      "arquivo": "solucoes/C.cpp",
+      "estado": "inalterado",
+      "sha256_local": "964a63d3a6b84db7173ed1f788521614c35ecdc00ee1f52560fbadcc0b694866"
+    },
+    {
+      "arquivo": "solucoes/D.cpp",
+      "estado": "inalterado",
+      "sha256_local": "bdc7cecac4e12c01ee609762cfa082764f075d38cb147e5a49b80cc7949e224b"
+    },
+    {
+      "arquivo": "solucoes/E.cpp",
+      "estado": "inalterado",
+      "sha256_local": "d55f7fa11ddea5d5c473a31a7bd5ef180ba7d46cec20c1399431b21cddcfcbbe"
+    },
+    {
+      "arquivo": "solucoes/I.cpp",
+      "estado": "inalterado",
+      "sha256_local": "f2511e8ff3bffa486597e9a0f0b86c9282143befd5264602ca4e0383a591f3f2"
+    },
+    {
+      "arquivo": "solucoes/K.cpp",
+      "estado": "inalterado",
+      "sha256_local": "64a8f88e82f8b66e74dcff399f09bac601c49f4ceafe3cd7c75ee8db95b8dea3"
+    },
+    {
+      "arquivo": "solucoes/M.cpp",
+      "estado": "inalterado",
+      "sha256_local": "c228168657c01c33c8906250017c8caa446294b2a1d4d1ff136b17083ca30b56"
+    },
+    {
+      "arquivo": "solucoes/N.cpp",
+      "estado": "inalterado",
+      "sha256_local": "2895ffbbb8558008ac132f05aec005afd0e0a1a6c6898acdc566f4c334314fd4"
+    },
+    {
+      "arquivo": "templates/base.cpp",
+      "estado": "inalterado",
+      "sha256_local": "0927212280c123d6c290fc26254f7d335f08ddfdda10a59991e9a2936355ca81"
+    },
+    {
+      "arquivo": "templates/greedy_priority_queue.cpp",
+      "estado": "inalterado",
+      "sha256_local": "5d8471a959eca7dec2bd54b86afd5d36af1addd1e6e2d9ba306a640fa22688b4"
+    },
+    {
+      "arquivo": "templates/prefix_sum.cpp",
+      "estado": "inalterado",
+      "sha256_local": "390e6eb5505464f5f3af3255a7bd44b5a07778f28ebd008311e819bbb7b26eca"
+    },
+    {
+      "arquivo": "templates/sliding_window.cpp",
+      "estado": "inalterado",
+      "sha256_local": "a1c0b54d3f3dcc0f0baafd39c6b7feb1780446df6e2aa7c8c111dd1f4356d536"
+    },
+    {
+      "arquivo": "templates/sort_comparador.cpp",
+      "estado": "inalterado",
+      "sha256_local": "d96ac76061bfe7e7eb2a0c2d0751b009866a56f5afc0b6833abfb047a2abf120"
+    },
+    {
+      "arquivo": "templates/subarray_sum_map.cpp",
+      "estado": "inalterado",
+      "sha256_local": "405d5d10b72fafa3718a1583a932ccb6d3b742d27832e26aeb62e07d3c975c82"
+    },
+    {
+      "arquivo": "verificacao/originais-sha256.txt",
+      "estado": "inalterado",
+      "sha256_local": "8377a951d760a3b8ec373c860c7b74372047dd51f3de56631ff85c8487e1737c"
+    },
+    {
+      "arquivo": "verificacao/validacao.md",
+      "estado": "inalterado",
+      "sha256_local": "38fc4cb8fde90b38c0056b32e3f1ace741c85fc8d73ab6a04c2e2bd516ac6ff6"
+    }
+  ]
+}
