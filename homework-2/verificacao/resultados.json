@@ -1,6 +1,22 @@
 {
   "integridade": [
     {
+      "arquivo": "solucoes/A.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/B.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/C.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/D.cpp",
+      "ok": true
+    },
+    {
       "arquivo": "solucoes/E.cpp",
       "ok": true
     },
@@ -42,6 +58,30 @@
     }
   ],
   "compilacao": [
+    {
+      "grupo": "hw2-original",
+      "arquivo": "A.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "B.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "C.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "D.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
     {
       "grupo": "hw2-original",
       "arquivo": "E.cpp",
@@ -282,6 +322,23 @@
     "L": "passou; teste de execução, sem enunciado completo",
     "M": "passou; teste de execução, sem enunciado completo",
     "N": "passou; teste de execução, sem enunciado completo",
-    "O": "passou; teste de execução, sem enunciado completo"
-  }
+    "O": "passou; teste de execução, sem enunciado completo",
+    "A": {
+      "casos": 2,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    },
+    "B": {
+      "casos": 2,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    },
+    "C": {
+      "casos": 3,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    },
+    "D": {
+      "casos": 3,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    }
+  },
+  "atualizacao_ad": "A-D compilados e testados em 10/10/2026; registros dos outros arquivos e 765 testes de templates preservados da execução anterior."
 }

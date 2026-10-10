@@ -4,7 +4,7 @@
 
 O commit de conteúdo é [e0c3970](https://github.com/theoegito/Maratona-cin/commit/e0c39701c40e8dec6d12d4c1732c76be45a92c06). O registro anterior de falhas é [60461fa](https://github.com/theoegito/Maratona-cin/commit/60461fab2e4feb4f070e9219e42671bce039b942). Este documento registra a confirmação posterior do envio.
 
-A-D do Homework 2 continuam pendentes e precisam dos anexos originais para completar os 14 solicitados. Essa pendência de conteúdo é independente do acesso ao GitHub.
+Os quatro originais A-D foram fornecidos diretamente pelo usuário em 10/10/2026 e adicionados sem alterar bytes. O conjunto solicitado de 14 arquivos agora está completo; integridade, compilação e testes estão em validacao.md e ad-resultados.json. O envio desta complementação usa o mesmo acesso Git autenticado já confirmado; o SHA no primeiro parágrafo registra a publicação anterior dos dez originais e guias.
 
 ## Resolução
 

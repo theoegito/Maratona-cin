@@ -76,7 +76,21 @@ with contextlib.nullcontext(str(build)) as folder:
  # overflow de int, duplicatas e fronteiras em long long.
  check('binary_search_resposta','3 2\n3000000000 3000000000 3000000000','6000000000')
  check('sliding_window','3 6000000000\n3000000000 3000000000 1','2')
+ sudoku_solved='''5 3 4 6 7 8 9 1 2
+6 7 2 1 9 5 3 4 8
+1 9 8 3 4 2 5 6 7
+8 5 9 7 6 1 4 2 3
+4 2 6 8 5 3 7 9 1
+7 1 3 9 2 4 8 5 6
+9 6 1 5 3 7 2 8 4
+2 8 7 4 1 9 6 3 5
+3 4 5 2 8 6 1 7 9'''
+ sudoku_impossible='0 1 2 3 4 5 6 7 8\n9 0 0 0 0 0 0 0 0\n'+('0 0 0 0 0 0 0 0 0\n'*7)
  original_tests={
+ 'A':[('3 7\n3 2 5\n','8'),('1 1000000000\n1000000000\n','1000000000000000000')],
+ 'B':[('1\n'+sudoku_solved.replace('5 3 4','0 3 4',1)+'\n',sudoku_solved),('1\n'+sudoku_impossible,'No solution')],
+ 'C':[('1\n7\n','1'),('6\n1 1 6 6 7 12\n','4'),('5\n-3 2 3 7 8\n','3')],
+ 'D':[('0\n','0'),('2\n1 2\n2 3\n','1'),('3\n1 5\n2 4\n4 6\n','2')],
  'E':('10 4 2\n1 3 5 7\n1 5\n3 7\n','2'),
  'F':(('........\n'*8),'92'),
  'G':('3 2\n2 1 2\n2 2 3\n','1'),
@@ -87,8 +101,10 @@ with contextlib.nullcontext(str(build)) as folder:
  'M':('5\n3 2 7 4 1\n','1'),
  'N':('aab\n','3\naab\naba\nbaa'),
  'O':('3 5 6 1\n1 2 3\n','2')}
- for name,(data,expected) in original_tests.items():
-  actual=run(name,data,'hw2-original');assert actual==expected,(name,expected,actual)
-  result['testes_originais'][name]='passou; teste de execução, sem enunciado completo'
+ for name,cases in original_tests.items():
+  if isinstance(cases,tuple):cases=[cases]
+  for data,expected in cases:
+   actual=run(name,data,'hw2-original');assert actual==expected,(name,expected,actual)
+  result['testes_originais'][name]={'casos':len(cases),'resultado':'todos passaram; testes de execução sob hipóteses documentadas'}
  # Saída estruturada permite reproduzir contagens e avisos.
  print(json.dumps(result,ensure_ascii=False,indent=2))

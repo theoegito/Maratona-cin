@@ -15,10 +15,14 @@
 
 ## Originais
 
-Os bytes dos anexos recuperados foram copiados sem edição. Não há arquivo H solicitado. **A.cpp, B.cpp, C.cpp e D.cpp do Homework 2 estão pendentes:** o acesso à conversa trouxe apenas os últimos dez anexos. Não usamos os A-D da primeira semana como substitutos. O conjunto solicitado de 14 ainda não está completo.
+Os **14 originais solicitados** estão completos: A,B,C,D,E,F,G,I,J,K,L,M,N,O. A-D foram fornecidos diretamente pelo usuário em 10/10/2026; os outros dez vieram da conversa anterior. Todos foram copiados sem edição e preservados byte a byte. Não há arquivo H solicitado.
 
 | Arquivo | Ideia identificada pela leitura do código |
 |---|---|
+| [A](solucoes/A.cpp) | Busca binária na resposta: mínimo tempo de produção das máquinas |
+| [B](solucoes/B.cpp) | Sudoku por recursão/backtracking; escolher, validar e desfazer |
+| [C](solucoes/C.cpp) | Sort e two pointers: maior grupo com amplitude até 5 |
+| [D](solucoes/D.cpp) | Sweep line: máximo de clientes simultâneos, saídas antes de entradas nos empates |
 | [E](solucoes/E.cpp) | Intervalos fechados, bounds e paridade de mudanças |
 | [F](solucoes/F.cpp) | Oito rainhas com obstáculos; fazer e desfazer |
 | [G](solucoes/G.cpp) | Máscaras de conjuntos e cobertura da união |

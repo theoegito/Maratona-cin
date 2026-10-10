@@ -1,5 +1,25 @@
 [
   {
+    "arquivo": "solucoes/A.cpp",
+    "sha256": "9f73dbcdf6ee1ba6add5241c7a7ed3cd0c809cdad096088f25a1b597e92969b3",
+    "bytes": 862
+  },
+  {
+    "arquivo": "solucoes/B.cpp",
+    "sha256": "afcbffc6146af9531d5f27e5adb164c9cf22fd681cc77c71ab9bb15754f18a4b",
+    "bytes": 1953
+  },
+  {
+    "arquivo": "solucoes/C.cpp",
+    "sha256": "75934ed4734e8db394919863652a9d5c2abc877a8144e9d067d20d1f191cb014",
+    "bytes": 829
+  },
+  {
+    "arquivo": "solucoes/D.cpp",
+    "sha256": "dc5a48f615408c05bc704d51d8471908e8a6b5efa2ce3b82bab63f7fd43a9419",
+    "bytes": 825
+  },
+  {
     "arquivo": "solucoes/E.cpp",
     "sha256": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
     "bytes": 1239

@@ -1,0 +1,104 @@
+{
+  "integridade": [
+    {
+      "arquivo": "solucoes/A.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/B.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/C.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/D.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/E.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/F.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/G.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/I.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/J.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/K.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/L.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/M.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/N.cpp",
+      "ok": true
+    },
+    {
+      "arquivo": "solucoes/O.cpp",
+      "ok": true
+    }
+  ],
+  "compilacao": [
+    {
+      "grupo": "hw2-original",
+      "arquivo": "A.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "B.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "C.cpp",
+      "codigo": 0,
+      "avisos": ""
+    },
+    {
+      "grupo": "hw2-original",
+      "arquivo": "D.cpp",
+      "codigo": 0,
+      "avisos": ""
+    }
+  ],
+  "testes_originais": {
+    "A": {
+      "casos": 2,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    },
+    "B": {
+      "casos": 2,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    },
+    "C": {
+      "casos": 3,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    },
+    "D": {
+      "casos": 3,
+      "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+    }
+  }
+}
