@@ -28,6 +28,6 @@ Valores iguais não geram cópias extras da mesma permutação ao partir de uma 
 - Começar desordenado visita somente as ordens posteriores à atual até voltar à primeira.
 - Permutar modifica os dados. N pequeno não dispensa verificar o tamanho da saída.
 
-[Programa completo](../../homework-2/templates/next_permutation.cpp) · [Escolhas com poda: backtracking](../algoritmos.md#backtracking)
+[Programa completo](../../semanas/semana-2-buscas-backtracking/templates/next_permutation.cpp) · [Escolhas com poda: backtracking](../../semanas/semana-2-buscas-backtracking/aula/algoritmos.md#backtracking)
 
 **Referência C++17:** [N4659: geradores de permutações](https://timsong-cpp.github.io/cppwp/n4659/alg.permutation.generators).

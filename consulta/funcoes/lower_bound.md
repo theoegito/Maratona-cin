@@ -73,6 +73,6 @@ Use o mesmo comparador da ordenação. Em `set/map`, não subtraia iteradores: `
 - Encontrar um elemento `>=x` não significa que encontrou `x`.
 - Ordenar muda a sequência. Preserve índices com pair se o problema pede posições originais.
 
-[Comparar com upper_bound](upper_bound.md) · [Somente presença: binary_search](binary_search.md) · [Programa completo](../../homework-2/templates/bounds.cpp)
+[Comparar com upper_bound](upper_bound.md) · [Somente presença: binary_search](binary_search.md) · [Programa completo](../../semanas/semana-2-buscas-backtracking/templates/bounds.cpp)
 
 **Referência C++17:** [N4659: lower.bound](https://timsong-cpp.github.io/cppwp/n4659/lower.bound).

@@ -32,6 +32,6 @@ O valor inicial faz parte da conta. Produto inicia em 1, soma em 0. No C++17, ac
 
 Uma variável long long recebe o resultado **depois** da expressão. Em multiplicação de ints, use `1LL*a*b` desde o início; na soma da faixa, use `0LL`.
 
-[Prefixos: várias consultas de soma](../algoritmos.md#prefix-sum) · [Tipos e overflow](entrada_tipos_funcoes.md#tipos-overflow)
+[Prefixos: várias consultas de soma](../../semanas/semana-1-stl-prefix-sum/aula/algoritmos.md#prefix-sum) · [Tipos e overflow](entrada_tipos_funcoes.md#tipos-overflow)
 
 **Referência C++17:** [N4659: accumulate](https://timsong-cpp.github.io/cppwp/n4659/accumulate).

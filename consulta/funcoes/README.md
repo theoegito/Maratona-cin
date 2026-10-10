@@ -4,11 +4,15 @@
 
 Procure o nome com `Ctrl+F`/`Cmd+F`. O mesmo nome pode ter semântica diferente conforme o tipo: `std::find` retorna iterador, `string::find` retorna índice; `vector::erase` recebe iterador, `multiset::erase(valor)` apaga todas as cópias.
 
+<a id="categorias"></a>
+
 ## Escolha a categoria
 
 | Categoria | O que você encontra |
 |---|---|
 | [Entrada, tipos e definição de funções](entrada_tipos_funcoes.md) | cin, cout, getline, parâmetros, const, referência, return, auto, lambda |
+| [Pair, tuple e associação de dados](pair_tuple.md) | first, second, make_pair, get, tie, ordem lexicográfica, índices originais |
+| [Iteradores e tipos de retorno](iteradores.md) | begin/end, *, ->, distance, prev/next, retornos e invalidação |
 | [Vector e string](vector_string.md) | Acesso, tamanho, inserção, remoção, reserve, resize, find, substr |
 | [Map, set e multiset](map_set.md) | Chaves, frequências, inserção, find, count, erase, bounds, unordered_map |
 | [Pilha, fila, deque e heap](pilha_fila_heap.md) | push, pop, top, front, back, empty, prioridade mínima/máxima |
@@ -23,6 +27,7 @@ Em cada página: **sintaxe → parâmetros → significado → retorno → custo
 |---|---|---|
 | `abs(x)` | Valor absoluto; precisa caber no tipo | [Numéricas](entrada_tipos_funcoes.md#funcoes-uteis) |
 | `accumulate(first,last,0LL)` | Soma; tipo do inicial define acumulador | [accumulate](accumulate.md) |
+| `auto [a,b] = p` / `auto& [a,b] = p` | Decompõe por cópia / referência (C++17) | [Structured bindings](pair_tuple.md#structured-bindings) |
 | `at(i)` / `map.at(chave)` | Referência com verificação; pode lançar exceção | [Vector](vector_string.md#vector) / [map](map_set.md#map) |
 | `auto`, `auto&`, `const auto&` | Deduz tipo; cópia / referência / leitura | [Referências](entrada_tipos_funcoes.md#referencias-auto) |
 | `back()` | Referência ao último, exige não vazio | [Vector/string](vector_string.md) / [fila/deque](pilha_fila_heap.md#queue) |
@@ -44,6 +49,7 @@ Em cada página: **sintaxe → parâmetros → significado → retorno → custo
 | `map.find(x)` / `set.find(x)` | Busca chave; iterador ou end | [Map/set](map_set.md#map-find) |
 | `string.find(texto)` / `string::npos` | Índice ou marcador de ausência | [String](vector_string.md#string-find) |
 | `front()` | Referência ao primeiro, exige não vazio | [Vector](vector_string.md#vector) / [queue](pilha_fila_heap.md#queue) |
+| `get<i>(t)` / `tie(a,b)` | Campo de tuple / agrupamento de referências | [Tuple e tie](pair_tuple.md#tuple) |
 | `gcd(a,b)` / `lcm(a,b)` | MDC / MMC; inteiros | [Numéricas](entrada_tipos_funcoes.md#gcd-lcm) |
 | `getline(cin,s)` | Linha inteira; stream | [getline](entrada_tipos_funcoes.md#getline) |
 | `greater<T>` | Comparador >; gera min-heap | [Heap mínimo](pilha_fila_heap.md#min-heap) / [sort](sort.md) |
@@ -56,8 +62,11 @@ Em cada página: **sintaxe → parâmetros → significado → retorno → custo
 | `set.lower_bound(x)` / `map.lower_bound(x)` | Método O(log n), primeiro valor/chave >=x | [Bounds em árvore](map_set.md#bounds) |
 | `min(a,b)` / `max(a,b)` | Menor/maior valor; copie o resultado | [min/max](min_max.md) |
 | `min_element` / `max_element` / `minmax_element` | Iterador(es) dos extremos | [Extremos](min_max.md) |
+| `make_pair(a,b)` / `pair<T,U>{a,b}` | Agrupa dois valores | [Pair](pair_tuple.md#pair) |
+| `next(it)` / `prev(it)` / `distance(a,b)` | Move cópia do iterador / conta passos | [Iteradores](iteradores.md#distancia) |
 | `next_permutation` / `prev_permutation` | Modifica ordem; bool: existe próxima/anterior? | [Permutações](next_permutation.md) |
 | `operator[]`: `v[i]`, `s[i]`, `m[chave]` | Vector/string: referência; map insere se ausente | [Vector/string](vector_string.md) / [map](map_set.md#map-operator) |
+| `p.first` / `p.second` | Campos do pair; valor e índice seguem juntos ao ordenar | [Pair](pair_tuple.md#indices-originais) |
 | `pop()` | Remove topo de stack/heap ou início de queue; void | [Pilha/fila/heap](pilha_fila_heap.md) |
 | `pop_back()` / `pop_front()` | Remove numa ponta; void; exige não vazio | [Vector](vector_string.md#vector-pop-back) / [deque](pilha_fila_heap.md#deque) |
 | `pow(a,b)` / `sqrt(x)` | Potência / raiz aproximadas | [Numéricas](entrada_tipos_funcoes.md#sqrt-pow) |

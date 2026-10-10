@@ -1,0 +1,1143 @@
+{
+  "data": "2026-10-10",
+  "commit_base": "856c4e73d314920bb40c04beca8388ff90e8b98b",
+  "estrutura": {
+    "pastas_de_conteudo_na_raiz": [
+      "consulta",
+      "semanas"
+    ],
+    "semana_1": "STL, Prefix Sum; Homework 1 e Contest 2",
+    "semana_2": "Buscas e Backtracking; Homework 2 e Contest 3"
+  },
+  "arquivos_cpp_pdf_anteriores": [
+    {
+      "antes": "guias/consulta-rapida.pdf",
+      "depois": "semanas/semana-1-stl-prefix-sum/aula/consulta-rapida.pdf",
+      "bytes_antes": 116735,
+      "sha256_antes": "23c54c514ab00b66d0f4e4f3623181b25bc6963c70a8f7f310fd917232a686b4",
+      "sha256_depois": "23c54c514ab00b66d0f4e4f3623181b25bc6963c70a8f7f310fd917232a686b4",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "23c54c514ab00b66d0f4e4f3623181b25bc6963c70a8f7f310fd917232a686b4",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/guias/consulta-rapida.pdf",
+      "depois": "semanas/semana-2-buscas-backtracking/aula/consulta-rapida.pdf",
+      "bytes_antes": 5707,
+      "sha256_antes": "7fb34cf78dc544f7b977baa3d67f65f2d532641d42bff5bd65df4b769a54bc6f",
+      "sha256_depois": "7fb34cf78dc544f7b977baa3d67f65f2d532641d42bff5bd65df4b769a54bc6f",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "7fb34cf78dc544f7b977baa3d67f65f2d532641d42bff5bd65df4b769a54bc6f",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/A.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/A.cpp",
+      "bytes_antes": 862,
+      "sha256_antes": "9f73dbcdf6ee1ba6add5241c7a7ed3cd0c809cdad096088f25a1b597e92969b3",
+      "sha256_depois": "9f73dbcdf6ee1ba6add5241c7a7ed3cd0c809cdad096088f25a1b597e92969b3",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "9f73dbcdf6ee1ba6add5241c7a7ed3cd0c809cdad096088f25a1b597e92969b3",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/B.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/B.cpp",
+      "bytes_antes": 1953,
+      "sha256_antes": "afcbffc6146af9531d5f27e5adb164c9cf22fd681cc77c71ab9bb15754f18a4b",
+      "sha256_depois": "afcbffc6146af9531d5f27e5adb164c9cf22fd681cc77c71ab9bb15754f18a4b",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "afcbffc6146af9531d5f27e5adb164c9cf22fd681cc77c71ab9bb15754f18a4b",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/C.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/C.cpp",
+      "bytes_antes": 829,
+      "sha256_antes": "75934ed4734e8db394919863652a9d5c2abc877a8144e9d067d20d1f191cb014",
+      "sha256_depois": "75934ed4734e8db394919863652a9d5c2abc877a8144e9d067d20d1f191cb014",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "75934ed4734e8db394919863652a9d5c2abc877a8144e9d067d20d1f191cb014",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/D.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/D.cpp",
+      "bytes_antes": 825,
+      "sha256_antes": "dc5a48f615408c05bc704d51d8471908e8a6b5efa2ce3b82bab63f7fd43a9419",
+      "sha256_depois": "dc5a48f615408c05bc704d51d8471908e8a6b5efa2ce3b82bab63f7fd43a9419",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "dc5a48f615408c05bc704d51d8471908e8a6b5efa2ce3b82bab63f7fd43a9419",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/E.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/E.cpp",
+      "bytes_antes": 1239,
+      "sha256_antes": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
+      "sha256_depois": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/F.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/F.cpp",
+      "bytes_antes": 1066,
+      "sha256_antes": "0a31f4d9f6aa2d08bc82985d048d5e101102cf48990bf5b42ade87e1e80be86d",
+      "sha256_depois": "0a31f4d9f6aa2d08bc82985d048d5e101102cf48990bf5b42ade87e1e80be86d",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "0a31f4d9f6aa2d08bc82985d048d5e101102cf48990bf5b42ade87e1e80be86d",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/G.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/G.cpp",
+      "bytes_antes": 1079,
+      "sha256_antes": "3cdee2349fd575bd9e49d05bc91662ef58fc8b609cc25111241bf4822a3c07fa",
+      "sha256_depois": "3cdee2349fd575bd9e49d05bc91662ef58fc8b609cc25111241bf4822a3c07fa",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "3cdee2349fd575bd9e49d05bc91662ef58fc8b609cc25111241bf4822a3c07fa",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/I.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/I.cpp",
+      "bytes_antes": 1547,
+      "sha256_antes": "22734f3d75c1feca969f3869825d5e41b700ddae8765072a3a16fb72f098e6b2",
+      "sha256_depois": "22734f3d75c1feca969f3869825d5e41b700ddae8765072a3a16fb72f098e6b2",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "22734f3d75c1feca969f3869825d5e41b700ddae8765072a3a16fb72f098e6b2",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/J.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/J.cpp",
+      "bytes_antes": 1344,
+      "sha256_antes": "e74693dcaf17989e1236b9805ee6e4b971ae317a2fa3fe190007f95ae3c1c372",
+      "sha256_depois": "e74693dcaf17989e1236b9805ee6e4b971ae317a2fa3fe190007f95ae3c1c372",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "e74693dcaf17989e1236b9805ee6e4b971ae317a2fa3fe190007f95ae3c1c372",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/K.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/K.cpp",
+      "bytes_antes": 779,
+      "sha256_antes": "af962a7d41d856b60396a3e4b2019291e23370f07008997c04e6fe0ff5088d75",
+      "sha256_depois": "af962a7d41d856b60396a3e4b2019291e23370f07008997c04e6fe0ff5088d75",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "af962a7d41d856b60396a3e4b2019291e23370f07008997c04e6fe0ff5088d75",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/L.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/L.cpp",
+      "bytes_antes": 925,
+      "sha256_antes": "0b00ade027784679e9cc7be0abe984411e6eb58022ee63f0b61a21913e639d3e",
+      "sha256_depois": "0b00ade027784679e9cc7be0abe984411e6eb58022ee63f0b61a21913e639d3e",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "0b00ade027784679e9cc7be0abe984411e6eb58022ee63f0b61a21913e639d3e",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/M.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/M.cpp",
+      "bytes_antes": 908,
+      "sha256_antes": "c58a08e35b61f9f7e4172fe6e7be19b1b88db43b04f8613b1e7040e0d4f9efba",
+      "sha256_depois": "c58a08e35b61f9f7e4172fe6e7be19b1b88db43b04f8613b1e7040e0d4f9efba",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "c58a08e35b61f9f7e4172fe6e7be19b1b88db43b04f8613b1e7040e0d4f9efba",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/N.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/N.cpp",
+      "bytes_antes": 499,
+      "sha256_antes": "5dad03d4b4c3d2a7a5cf9e73c10157f537d066a5f8d6ceebef4987cb168f032b",
+      "sha256_depois": "5dad03d4b4c3d2a7a5cf9e73c10157f537d066a5f8d6ceebef4987cb168f032b",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "5dad03d4b4c3d2a7a5cf9e73c10157f537d066a5f8d6ceebef4987cb168f032b",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/solucoes/O.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/homework-2/O.cpp",
+      "bytes_antes": 1122,
+      "sha256_antes": "5343a0d5372404b68514c69e8692ebf5bbc72bfed1d3a70e886fc2ac930b1151",
+      "sha256_depois": "5343a0d5372404b68514c69e8692ebf5bbc72bfed1d3a70e886fc2ac930b1151",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "5343a0d5372404b68514c69e8692ebf5bbc72bfed1d3a70e886fc2ac930b1151",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/backtracking.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/backtracking.cpp",
+      "bytes_antes": 1108,
+      "sha256_antes": "61c1bab44f9d9b349cab448cc92843d06b0a588177b137912425ca1db3efe7a0",
+      "sha256_depois": "61c1bab44f9d9b349cab448cc92843d06b0a588177b137912425ca1db3efe7a0",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "026ab934a6557d60d9ada1929fd561fb2c07c88ada88e267958cbc85cb46b740",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/binary_search_resposta.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/binary_search_resposta.cpp",
+      "bytes_antes": 949,
+      "sha256_antes": "eebcc63c713764ab1a30375687a5c5ee1338f622570a85f4b433e2ae8eb5253f",
+      "sha256_depois": "eebcc63c713764ab1a30375687a5c5ee1338f622570a85f4b433e2ae8eb5253f",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "b27865bdbad6cf7654dee92b8fc61e90348b6e5f87194fe9a673248dd6b66b7d",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/bitmask.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/bitmask.cpp",
+      "bytes_antes": 763,
+      "sha256_antes": "4f48254f44abce671bfd3bd56ddc231ca087a2e130654385e9cac5448ce81004",
+      "sha256_depois": "4f48254f44abce671bfd3bd56ddc231ca087a2e130654385e9cac5448ce81004",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "16a61b8b9ce48e84aca4327e56a7aed4d8adfbec2c5beece19a4454c66c61ddd",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/bounds.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/bounds.cpp",
+      "bytes_antes": 554,
+      "sha256_antes": "f5ff2e74126e71fe9f06ec4d2b2d8430b9a41f3b5ec7e3c3bfbe57afab3ee3d1",
+      "sha256_depois": "f5ff2e74126e71fe9f06ec4d2b2d8430b9a41f3b5ec7e3c3bfbe57afab3ee3d1",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "519a6e590c236d4bb646eb77734dafd093ae67807e5a181065418a5fc803ad99",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/next_permutation.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/next_permutation.cpp",
+      "bytes_antes": 399,
+      "sha256_antes": "d34b2a10dc2ab700cbb3e1e6f7b675b18835759f3962cc2901fa4a140e4ed40e",
+      "sha256_depois": "d34b2a10dc2ab700cbb3e1e6f7b675b18835759f3962cc2901fa4a140e4ed40e",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "d86c4aabc934f3783d4631532b5def90b904560713ea3d8c6554c5af92e17267",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/pilha_monotonica.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/templates/pilha_monotonica.cpp",
+      "bytes_antes": 627,
+      "sha256_antes": "63f06613599fe353531324c14db98f291dcb9726c05707eb416c32b768e8d9b1",
+      "sha256_depois": "63f06613599fe353531324c14db98f291dcb9726c05707eb416c32b768e8d9b1",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "7cb180b85a91ff39002e9338eadbe85ea7a5225e1ec821a8679c8b711477900f",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/recursao_subset.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/recursao_subset.cpp",
+      "bytes_antes": 722,
+      "sha256_antes": "8747a3172437de56c1b08baec84eba4d94d889285553ad543684ac00e750198d",
+      "sha256_depois": "8747a3172437de56c1b08baec84eba4d94d889285553ad543684ac00e750198d",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "03519a653a0c8a68aa366880e0877faf30b7559cab041db5c993eed1afd19f6a",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/sliding_window.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/sliding_window.cpp",
+      "bytes_antes": 590,
+      "sha256_antes": "6b03ca41e11e13eb04bf5739ff0ab546d1d787f742644ba006bfc010b761906c",
+      "sha256_depois": "6b03ca41e11e13eb04bf5739ff0ab546d1d787f742644ba006bfc010b761906c",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "9726c22f1ca2fa8be74daa4b3b81f4cbfd469182dba2654b250d662d75155b39",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/sort_indices.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/sort_indices.cpp",
+      "bytes_antes": 663,
+      "sha256_antes": "52d713739fa8fc38e347aa083d3479e5f2ddf353c7a658c5cec51cdc4fb04e22",
+      "sha256_depois": "52d713739fa8fc38e347aa083d3479e5f2ddf353c7a658c5cec51cdc4fb04e22",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "e979215fd08ba56ebab98dd7b9cc4687e6de84fbe466a11c22b7669a2f703b8a",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/sweep_line.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/sweep_line.cpp",
+      "bytes_antes": 1025,
+      "sha256_antes": "43a259a76143ad057fa0511461a96ae1735237dab3e00ab19d96ec7bf337fe49",
+      "sha256_depois": "43a259a76143ad057fa0511461a96ae1735237dab3e00ab19d96ec7bf337fe49",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "afac2eee07abce250cbb23c1cd6a7aa73e301bd21f876ec8ecfd8bf89d7aafa8",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "homework-2/templates/two_pointers.cpp",
+      "depois": "semanas/semana-2-buscas-backtracking/templates/two_pointers.cpp",
+      "bytes_antes": 787,
+      "sha256_antes": "f462c43d6162543d03281ebd0619f6abc0a8213e803a37f1a2694bbcf48da6e7",
+      "sha256_depois": "f462c43d6162543d03281ebd0619f6abc0a8213e803a37f1a2694bbcf48da6e7",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "bae3329c626a2f4866409545561067c003d82194d34789cc4a40fefdaf206e86",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/A.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/A.cpp",
+      "bytes_antes": 1975,
+      "sha256_antes": "3d5aca472f9b472aa793c4ea8c6722972f37792fb062134fd0c8958bab4d7886",
+      "sha256_depois": "3d5aca472f9b472aa793c4ea8c6722972f37792fb062134fd0c8958bab4d7886",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "3d5aca472f9b472aa793c4ea8c6722972f37792fb062134fd0c8958bab4d7886",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/B.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/B.cpp",
+      "bytes_antes": 1180,
+      "sha256_antes": "b67593f84645269880ef968c3791488f4dc973cfa91d9e6d8cc836e3620850d5",
+      "sha256_depois": "b67593f84645269880ef968c3791488f4dc973cfa91d9e6d8cc836e3620850d5",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "b67593f84645269880ef968c3791488f4dc973cfa91d9e6d8cc836e3620850d5",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/C.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/C.cpp",
+      "bytes_antes": 1424,
+      "sha256_antes": "964a63d3a6b84db7173ed1f788521614c35ecdc00ee1f52560fbadcc0b694866",
+      "sha256_depois": "964a63d3a6b84db7173ed1f788521614c35ecdc00ee1f52560fbadcc0b694866",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "964a63d3a6b84db7173ed1f788521614c35ecdc00ee1f52560fbadcc0b694866",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/D.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/D.cpp",
+      "bytes_antes": 853,
+      "sha256_antes": "bdc7cecac4e12c01ee609762cfa082764f075d38cb147e5a49b80cc7949e224b",
+      "sha256_depois": "bdc7cecac4e12c01ee609762cfa082764f075d38cb147e5a49b80cc7949e224b",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "bdc7cecac4e12c01ee609762cfa082764f075d38cb147e5a49b80cc7949e224b",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/E.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/E.cpp",
+      "bytes_antes": 1160,
+      "sha256_antes": "d55f7fa11ddea5d5c473a31a7bd5ef180ba7d46cec20c1399431b21cddcfcbbe",
+      "sha256_depois": "d55f7fa11ddea5d5c473a31a7bd5ef180ba7d46cec20c1399431b21cddcfcbbe",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "d55f7fa11ddea5d5c473a31a7bd5ef180ba7d46cec20c1399431b21cddcfcbbe",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/I.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/I.cpp",
+      "bytes_antes": 568,
+      "sha256_antes": "f2511e8ff3bffa486597e9a0f0b86c9282143befd5264602ca4e0383a591f3f2",
+      "sha256_depois": "f2511e8ff3bffa486597e9a0f0b86c9282143befd5264602ca4e0383a591f3f2",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "f2511e8ff3bffa486597e9a0f0b86c9282143befd5264602ca4e0383a591f3f2",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/K.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/K.cpp",
+      "bytes_antes": 2713,
+      "sha256_antes": "64a8f88e82f8b66e74dcff399f09bac601c49f4ceafe3cd7c75ee8db95b8dea3",
+      "sha256_depois": "64a8f88e82f8b66e74dcff399f09bac601c49f4ceafe3cd7c75ee8db95b8dea3",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "64a8f88e82f8b66e74dcff399f09bac601c49f4ceafe3cd7c75ee8db95b8dea3",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/M.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/M.cpp",
+      "bytes_antes": 611,
+      "sha256_antes": "c228168657c01c33c8906250017c8caa446294b2a1d4d1ff136b17083ca30b56",
+      "sha256_depois": "c228168657c01c33c8906250017c8caa446294b2a1d4d1ff136b17083ca30b56",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "c228168657c01c33c8906250017c8caa446294b2a1d4d1ff136b17083ca30b56",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "solucoes/N.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/homework-1/N.cpp",
+      "bytes_antes": 571,
+      "sha256_antes": "2895ffbbb8558008ac132f05aec005afd0e0a1a6c6898acdc566f4c334314fd4",
+      "sha256_depois": "2895ffbbb8558008ac132f05aec005afd0e0a1a6c6898acdc566f4c334314fd4",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "2895ffbbb8558008ac132f05aec005afd0e0a1a6c6898acdc566f4c334314fd4",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "templates/base.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/templates/base.cpp",
+      "bytes_antes": 1407,
+      "sha256_antes": "0927212280c123d6c290fc26254f7d335f08ddfdda10a59991e9a2936355ca81",
+      "sha256_depois": "0927212280c123d6c290fc26254f7d335f08ddfdda10a59991e9a2936355ca81",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "0927212280c123d6c290fc26254f7d335f08ddfdda10a59991e9a2936355ca81",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "templates/greedy_priority_queue.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/templates/greedy_priority_queue.cpp",
+      "bytes_antes": 1524,
+      "sha256_antes": "5d8471a959eca7dec2bd54b86afd5d36af1addd1e6e2d9ba306a640fa22688b4",
+      "sha256_depois": "5d8471a959eca7dec2bd54b86afd5d36af1addd1e6e2d9ba306a640fa22688b4",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "5d8471a959eca7dec2bd54b86afd5d36af1addd1e6e2d9ba306a640fa22688b4",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "templates/prefix_sum.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/templates/prefix_sum.cpp",
+      "bytes_antes": 1083,
+      "sha256_antes": "390e6eb5505464f5f3af3255a7bd44b5a07778f28ebd008311e819bbb7b26eca",
+      "sha256_depois": "390e6eb5505464f5f3af3255a7bd44b5a07778f28ebd008311e819bbb7b26eca",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "390e6eb5505464f5f3af3255a7bd44b5a07778f28ebd008311e819bbb7b26eca",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "templates/sliding_window.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/templates/sliding_window.cpp",
+      "bytes_antes": 1523,
+      "sha256_antes": "a1c0b54d3f3dcc0f0baafd39c6b7feb1780446df6e2aa7c8c111dd1f4356d536",
+      "sha256_depois": "a1c0b54d3f3dcc0f0baafd39c6b7feb1780446df6e2aa7c8c111dd1f4356d536",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "a1c0b54d3f3dcc0f0baafd39c6b7feb1780446df6e2aa7c8c111dd1f4356d536",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "templates/sort_comparador.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/templates/sort_comparador.cpp",
+      "bytes_antes": 1374,
+      "sha256_antes": "d96ac76061bfe7e7eb2a0c2d0751b009866a56f5afc0b6833abfb047a2abf120",
+      "sha256_depois": "d96ac76061bfe7e7eb2a0c2d0751b009866a56f5afc0b6833abfb047a2abf120",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "d96ac76061bfe7e7eb2a0c2d0751b009866a56f5afc0b6833abfb047a2abf120",
+      "blob_git_preservado_byte_a_byte": true
+    },
+    {
+      "antes": "templates/subarray_sum_map.cpp",
+      "depois": "semanas/semana-1-stl-prefix-sum/templates/subarray_sum_map.cpp",
+      "bytes_antes": 1157,
+      "sha256_antes": "405d5d10b72fafa3718a1583a932ccb6d3b742d27832e26aeb62e07d3c975c82",
+      "sha256_depois": "405d5d10b72fafa3718a1583a932ccb6d3b742d27832e26aeb62e07d3c975c82",
+      "preservado_byte_a_byte": true,
+      "sha256_no_git": "405d5d10b72fafa3718a1583a932ccb6d3b742d27832e26aeb62e07d3c975c82",
+      "blob_git_preservado_byte_a_byte": true
+    }
+  ],
+  "copias_adicionadas": [
+    {
+      "origem": "slides-aula-1",
+      "destino": "semanas/semana-1-stl-prefix-sum/aula/slides.pdf",
+      "bytes": 7734511,
+      "sha256": "348ed0dae1cf2f66f3700a35e0a3bc68812928339cbbac34b49a0575d4b001a2"
+    },
+    {
+      "origem": "slides-aula-2",
+      "destino": "semanas/semana-2-buscas-backtracking/aula/slides.pdf",
+      "bytes": 3169193,
+      "sha256": "b78bc7a805d1f57e0debea8a01feb9484d8d3a25c72fbc754074d635f35094c8"
+    },
+    {
+      "origem": "Contest_2/F.cpp",
+      "destino": "semanas/semana-1-stl-prefix-sum/contest-2/F.cpp",
+      "bytes": 585,
+      "sha256": "42a9cfae2633a7c05552ef15791920b737d31054e25a0ea48b8f5666252978f3"
+    },
+    {
+      "origem": "Contest_2/H.cpp",
+      "destino": "semanas/semana-1-stl-prefix-sum/contest-2/H.cpp",
+      "bytes": 955,
+      "sha256": "629f9ed7cbd175147e2d4ded2edd8d2454a033d774f5bd5562edee6b04b73738"
+    },
+    {
+      "origem": "Contest_3/H.cpp",
+      "destino": "semanas/semana-2-buscas-backtracking/contest-3/H.cpp",
+      "bytes": 550,
+      "sha256": "d9b8d9ba472944f945ac55dde9bf045d60a269491f24266acd3d05e3e9cae1be"
+    },
+    {
+      "origem": "exemplo-didatico-sum-three",
+      "destino": "semanas/semana-2-buscas-backtracking/templates/soma_tres_valores.cpp",
+      "bytes": 1021,
+      "sha256": "028c9d59e21e32c2af143138a3dd717b861b71c06491d23b4e09258697c617dc"
+    }
+  ],
+  "exemplos_cpp_preservados": {
+    "guias_e_catalogo": 82,
+    "receitas_distribuidas_por_semana": 13
+  },
+  "validacao_programas": {
+    "integridade": [
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/A.cpp",
+        "sha256": "9f73dbcdf6ee1ba6add5241c7a7ed3cd0c809cdad096088f25a1b597e92969b3",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/B.cpp",
+        "sha256": "afcbffc6146af9531d5f27e5adb164c9cf22fd681cc77c71ab9bb15754f18a4b",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/C.cpp",
+        "sha256": "75934ed4734e8db394919863652a9d5c2abc877a8144e9d067d20d1f191cb014",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/D.cpp",
+        "sha256": "dc5a48f615408c05bc704d51d8471908e8a6b5efa2ce3b82bab63f7fd43a9419",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/E.cpp",
+        "sha256": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/F.cpp",
+        "sha256": "0a31f4d9f6aa2d08bc82985d048d5e101102cf48990bf5b42ade87e1e80be86d",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/G.cpp",
+        "sha256": "3cdee2349fd575bd9e49d05bc91662ef58fc8b609cc25111241bf4822a3c07fa",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/I.cpp",
+        "sha256": "22734f3d75c1feca969f3869825d5e41b700ddae8765072a3a16fb72f098e6b2",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/J.cpp",
+        "sha256": "e74693dcaf17989e1236b9805ee6e4b971ae317a2fa3fe190007f95ae3c1c372",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/K.cpp",
+        "sha256": "af962a7d41d856b60396a3e4b2019291e23370f07008997c04e6fe0ff5088d75",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/L.cpp",
+        "sha256": "0b00ade027784679e9cc7be0abe984411e6eb58022ee63f0b61a21913e639d3e",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/M.cpp",
+        "sha256": "c58a08e35b61f9f7e4172fe6e7be19b1b88db43b04f8613b1e7040e0d4f9efba",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/N.cpp",
+        "sha256": "5dad03d4b4c3d2a7a5cf9e73c10157f537d066a5f8d6ceebef4987cb168f032b",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/O.cpp",
+        "sha256": "5343a0d5372404b68514c69e8692ebf5bbc72bfed1d3a70e886fc2ac930b1151",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/A.cpp",
+        "sha256": "3d5aca472f9b472aa793c4ea8c6722972f37792fb062134fd0c8958bab4d7886",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/B.cpp",
+        "sha256": "b67593f84645269880ef968c3791488f4dc973cfa91d9e6d8cc836e3620850d5",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/C.cpp",
+        "sha256": "964a63d3a6b84db7173ed1f788521614c35ecdc00ee1f52560fbadcc0b694866",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/D.cpp",
+        "sha256": "bdc7cecac4e12c01ee609762cfa082764f075d38cb147e5a49b80cc7949e224b",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/E.cpp",
+        "sha256": "d55f7fa11ddea5d5c473a31a7bd5ef180ba7d46cec20c1399431b21cddcfcbbe",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/I.cpp",
+        "sha256": "f2511e8ff3bffa486597e9a0f0b86c9282143befd5264602ca4e0383a591f3f2",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/K.cpp",
+        "sha256": "64a8f88e82f8b66e74dcff399f09bac601c49f4ceafe3cd7c75ee8db95b8dea3",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/M.cpp",
+        "sha256": "c228168657c01c33c8906250017c8caa446294b2a1d4d1ff136b17083ca30b56",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/N.cpp",
+        "sha256": "2895ffbbb8558008ac132f05aec005afd0e0a1a6c6898acdc566f4c334314fd4",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/contest-2/F.cpp",
+        "sha256": "42a9cfae2633a7c05552ef15791920b737d31054e25a0ea48b8f5666252978f3",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-1-stl-prefix-sum/contest-2/H.cpp",
+        "sha256": "629f9ed7cbd175147e2d4ded2edd8d2454a033d774f5bd5562edee6b04b73738",
+        "ok": true
+      },
+      {
+        "arquivo": "semanas/semana-2-buscas-backtracking/contest-3/H.cpp",
+        "sha256": "d9b8d9ba472944f945ac55dde9bf045d60a269491f24266acd3d05e3e9cae1be",
+        "ok": true
+      }
+    ],
+    "compilacao": [
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/A.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/B.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/C.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/D.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/E.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/F.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/G.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/I.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": "semanas\\semana-2-buscas-backtracking\\homework-2\\I.cpp: In function 'int main()':\nsemanas\\semana-2-buscas-backtracking\\homework-2\\I.cpp:38:23: warning: unused variable 'distancia_atual' [-Wunused-variable]\n   38 |             long long distancia_atual = 0;\n      |                       ^~~~~~~~~~~~~~~\n"
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/J.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": "semanas\\semana-2-buscas-backtracking\\homework-2\\J.cpp: In function 'int main()':\nsemanas\\semana-2-buscas-backtracking\\homework-2\\J.cpp:34:44: warning: comparison of integer expressions of different signedness: 'long long int' and 'std::vector<long long int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]\n   34 |         while (num_grupos <= k && contador < lista_num.size()){\n      |                                   ~~~~~~~~~^~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/K.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/L.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/M.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/N.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/homework-2/O.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/backtracking.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/binary_search_resposta.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/bitmask.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/bounds.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/next_permutation.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/recursao_subset.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/sliding_window.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/soma_tres_valores.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/sort_indices.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/sweep_line.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "hw2-template",
+        "arquivo": "semanas/semana-2-buscas-backtracking/templates/two_pointers.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/A.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/B.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/C.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": "semanas\\semana-1-stl-prefix-sum\\homework-1\\C.cpp: In function 'int main()':\nsemanas\\semana-1-stl-prefix-sum\\homework-1\\C.cpp:24:25: warning: comparison of integer expressions of different signedness: 'std::stack<int>::size_type' {aka 'long long unsigned int'} and 'long long int' [-Wsign-compare]\n   24 |     while(size(pilha_c) != n){\n      |           ~~~~~~~~~~~~~~^~~~\nsemanas\\semana-1-stl-prefix-sum\\homework-1\\C.cpp:55:33: warning: comparison of integer expressions of different signedness: 'long long int' and 'std::vector<std::__cxx11::basic_string<char> >::size_type' {aka 'long long unsigned int'} [-Wsign-compare]\n   55 |         for (long long j = 0; j < size(operacoes); j++){\n      |                               ~~^~~~~~~~~~~~~~~~~\n"
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/D.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/E.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/I.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/K.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": "semanas\\semana-1-stl-prefix-sum\\homework-1\\K.cpp: In function 'int main()':\nsemanas\\semana-1-stl-prefix-sum\\homework-1\\K.cpp:43:33: warning: 'bloco_atual' may be used uninitialized [-Wmaybe-uninitialized]\n   43 |                     bloco_atual += 1;\n      |                     ~~~~~~~~~~~~^~~~\nsemanas\\semana-1-stl-prefix-sum\\homework-1\\K.cpp:13:19: note: 'bloco_atual' was declared here\n   13 |         long long bloco_atual;\n      |                   ^~~~~~~~~~~\nsemanas\\semana-1-stl-prefix-sum\\homework-1\\K.cpp:42:17: warning: 'ultimo_numero' may be used uninitialized [-Wmaybe-uninitialized]\n   42 |                 if (ultimo_numero == bloco[j]){\n      |                 ^~\nsemanas\\semana-1-stl-prefix-sum\\homework-1\\K.cpp:16:14: note: 'ultimo_numero' was declared here\n   16 |         char ultimo_numero;\n      |              ^~~~~~~~~~~~~\n"
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/M.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/homework-1/N.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-template",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/templates/base.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-template",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/templates/greedy_priority_queue.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-template",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/templates/pilha_monotonica.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-template",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/templates/prefix_sum.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-template",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/templates/sliding_window.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-template",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/templates/sort_comparador.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "semana1-template",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/templates/subarray_sum_map.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "contest2-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/contest-2/F.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "contest2-original",
+        "arquivo": "semanas/semana-1-stl-prefix-sum/contest-2/H.cpp",
+        "codigo": 0,
+        "falha_esperada": false,
+        "avisos": ""
+      },
+      {
+        "grupo": "contest3-original",
+        "arquivo": "semanas/semana-2-buscas-backtracking/contest-3/H.cpp",
+        "codigo": 1,
+        "falha_esperada": true,
+        "avisos": "semanas\\semana-2-buscas-backtracking\\contest-3\\H.cpp: In function 'int main()':\nsemanas\\semana-2-buscas-backtracking\\contest-3\\H.cpp:27:22: error: expected ';' before ')' token\n   27 |     for (int j = 0; j )\n      |                      ^~\n      |                      ;\n"
+      }
+    ],
+    "testes_templates": {
+      "bounds": 80,
+      "sort_indices": 80,
+      "pilha_monotonica": 80,
+      "two_pointers": 80,
+      "sliding_window": 81,
+      "recursao_subset": 80,
+      "bitmask": 80,
+      "sweep_line": 80,
+      "binary_search_resposta": 81,
+      "next_permutation": 8,
+      "backtracking": 35,
+      "soma_tres_valores": 77
+    },
+    "testes_originais": {
+      "A": {
+        "casos": 2,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "B": {
+        "casos": 2,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "C": {
+        "casos": 3,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "D": {
+        "casos": 3,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "E": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "F": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "G": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "I": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "J": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "K": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "L": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "M": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "N": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "O": {
+        "casos": 1,
+        "resultado": "todos passaram; testes de execução sob hipóteses documentadas"
+      },
+      "contest2/F": {
+        "casos": 58,
+        "resultado": "passaram sob hipótese: contagem de números positivos com quantidade ímpar de dígitos, 0<=N<=LLONG_MAX"
+      },
+      "contest2/H": {
+        "casos": 85,
+        "resultado": "passaram sob hipótese: n>=1 e valores 1/2; dois blocos consecutivos de igual tamanho"
+      },
+      "contest3/H": {
+        "casos": 0,
+        "resultado": "não executado: rascunho original incompleto, falha de compilação esperada"
+      }
+    },
+    "observacoes": [
+      "Contest 3/H.cpp é um rascunho original incompleto: sua falha de compilação é esperada e registrada; ele não é executado."
+    ]
+  },
+  "novos_exemplos_funcoes": {
+    "padrao": "C++17",
+    "blocos": 14,
+    "resultados": [
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 1,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 2,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 3,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 4,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 5,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 6,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 7,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/pair_tuple.md",
+        "bloco": 8,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/iteradores.md",
+        "bloco": 1,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/iteradores.md",
+        "bloco": 2,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/iteradores.md",
+        "bloco": 3,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/iteradores.md",
+        "bloco": 4,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/iteradores.md",
+        "bloco": 5,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      },
+      {
+        "pagina": "consulta/funcoes/iteradores.md",
+        "bloco": 6,
+        "compilou": true,
+        "execucao": "PASS",
+        "avisos": ""
+      }
+    ]
+  },
+  "novos_exemplos_roteiros": [
+    {
+      "pagina": "semanas/semana-1-stl-prefix-sum/aula/roteiro.md",
+      "bloco": 1,
+      "compilou": true
+    },
+    {
+      "pagina": "semanas/semana-1-stl-prefix-sum/aula/roteiro.md",
+      "bloco": 2,
+      "compilou": true
+    },
+    {
+      "pagina": "semanas/semana-2-buscas-backtracking/aula/roteiro.md",
+      "bloco": 1,
+      "compilou": true
+    },
+    {
+      "pagina": "semanas/semana-2-buscas-backtracking/aula/roteiro.md",
+      "bloco": 2,
+      "compilou": true
+    }
+  ],
+  "navegacao": {
+    "arquivos_markdown": 44,
+    "links_locais": 865,
+    "links_com_ancora": 311,
+    "pdfs_com_pagina_verificada": 2,
+    "ignorados_temporarios": [],
+    "erros": []
+  },
+  "origem_hashes_antes_depois": "Bytes do checkout Windows conferido; sha256_no_git identifica os bytes armazenados no Git.",
+  "originais_verificados_no_indice_git": 26
+}

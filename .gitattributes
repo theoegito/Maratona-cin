@@ -1,5 +1,4 @@
-# Preservar os bytes dos anexos, inclusive as quebras de linha.
-solucoes/*.cpp -text
+# Preservar os bytes dos originais, inclusive quebras de linha.
+semanas/**/homework-*/*.cpp -text
+semanas/**/contest-*/*.cpp -text
 *.pdf binary
-
-homework-2/solucoes/*.cpp -text

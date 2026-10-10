@@ -26,7 +26,7 @@ Faixa ordenada com o comparador da busca. O(log n) em vector, após o preparo co
 | Índice do primeiro >=x | [lower_bound](lower_bound.md) |
 | Primeiro >x | [upper_bound](upper_bound.md) |
 | Chave em map/set | `.find(x) != .end()` |
-| Mínimo tempo/capacidade que funciona | [Busca binária NA RESPOSTA](../algoritmos.md#busca-binaria) |
+| Mínimo tempo/capacidade que funciona | [Busca binária NA RESPOSTA](../../semanas/semana-2-buscas-backtracking/aula/algoritmos.md#busca-binaria) |
 
 `binary_search` e busca binária na resposta têm objetivos diferentes: a segunda chama um predicado `ok(mid)` e precisa de monotonicidade. Em set/map, métodos como find têm O(log n) sem os avanços lineares de iteradores da versão genérica.
 

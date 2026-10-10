@@ -42,6 +42,6 @@ minmax_element tem O(n); em empate, mínimo é a primeira ocorrência e máximo 
 - `max(int, long long)` não deduz um tipo único: ajuste os tipos ou use `max<long long>(a,b)`.
 - Valores retornados por min/max de duas referências podem se tornar referências pendentes se você guardar referência a um argumento temporário; na consulta usual, atribua por valor.
 
-[Uso em limites da busca na resposta](../algoritmos.md#busca-binaria)
+[Uso em limites da busca na resposta](../../semanas/semana-2-buscas-backtracking/aula/algoritmos.md#busca-binaria)
 
 **Referência C++17:** [N4659: mínimo e máximo](https://timsong-cpp.github.io/cppwp/n4659/alg.min.max).

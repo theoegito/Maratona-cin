@@ -46,6 +46,6 @@ Para um critério próprio: `stable_sort(v.begin(),v.end(),comp)`. Comparadores 
 - Não existe `v.sort()` para vector. `std::sort` precisa de iteradores de acesso aleatório; set já mantém ordem, list tem seu método sort.
 - Para tirar todas as duplicatas: [sort + unique + erase](unique_erase.md).
 
-[Template: ordenar com índices](../../homework-2/templates/sort_indices.cpp) · [Comparador de concatenação](../../templates/sort_comparador.cpp)
+[Template: ordenar com índices](../../semanas/semana-2-buscas-backtracking/templates/sort_indices.cpp) · [Comparador de concatenação](../../semanas/semana-1-stl-prefix-sum/templates/sort_comparador.cpp)
 
 **Referência C++17:** [N4659: ordenação](https://timsong-cpp.github.io/cppwp/n4659/alg.sort).

@@ -57,6 +57,6 @@ Na tabela, `lower_bound(x)` abrevia `lower_bound(v.begin(),v.end(),x)`. Se o int
 - Em vector decrescente com `greater<T>`, upper_bound procura o primeiro **<x** segundo a ordem numérica; não aplique a tabela crescente.
 - Contar em set/map com `distance(lo,hi)` pode ser O(quantidade). Iteradores não aceitam subtração.
 
-[lower_bound](lower_bound.md) · [Programa completo de bounds](../../homework-2/templates/bounds.cpp) · [Sweep e fronteiras](../algoritmos.md#sweep-line)
+[lower_bound](lower_bound.md) · [Programa completo de bounds](../../semanas/semana-2-buscas-backtracking/templates/bounds.cpp) · [Sweep e fronteiras](../../semanas/semana-2-buscas-backtracking/aula/algoritmos.md#sweep-line)
 
 **Referência C++17:** [N4659: upper.bound](https://timsong-cpp.github.io/cppwp/n4659/upper.bound).
