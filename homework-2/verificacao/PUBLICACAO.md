@@ -1,20 +1,32 @@
 # Estado da publicação
 
-Preparação em 10/10/2026. Esta atualização contém guias, consulta Markdown/PDF, templates e os dez originais recuperados. A-D do Homework 2 continuam pendentes e precisam dos anexos originais para completar os 14 solicitados.
+**Publicado em main em 10/10/2026.** O envio por Git autenticado com a conta theoegito foi concluído. Após o envio, `git ls-remote origin refs/heads/main` e o HEAD local retornaram o mesmo SHA: `60461fab2e4feb4f070e9219e42671bce039b942`. A leitura desse commit pela API do GitHub também confirmou sua existência.
+
+O commit de conteúdo é [e0c3970](https://github.com/theoegito/Maratona-cin/commit/e0c39701c40e8dec6d12d4c1732c76be45a92c06). O registro anterior de falhas é [60461fa](https://github.com/theoegito/Maratona-cin/commit/60461fab2e4feb4f070e9219e42671bce039b942). Este documento registra a confirmação posterior do envio.
+
+A-D do Homework 2 continuam pendentes e precisam dos anexos originais para completar os 14 solicitados. Essa pendência de conteúdo é independente do acesso ao GitHub.
+
+## Resolução
+
+O isolamento impedia a execução do Git Credential Manager. O Git foi executado fora desse isolamento e a conta foi autenticada pelo fluxo oficial de código no navegador. O usuário concluiu a confirmação de identidade e a autorização do Git Credential Manager no próprio GitHub. O envio seguinte foi bem-sucedido.
+
+A publicação foi feita por Git; não foi confirmada uma correção dos escopos de escrita do conector. O campo push=true descreve a permissão do usuário no repositório e, sozinho, não comprova autorização da integração.
+
+## Histórico das tentativas iniciais
 
 O conector GitHub falhou ao criar um blob com HTTP 403, `Resource not accessible by integration`. O campo `push=true` nos metadados não comprovou acesso de escrita da integração. A leitura por Git funcionou e confirmou a base `5b2436c19d1cdadfce45eb78212cd34b779d2d18`.
 
-**Não publicado.** Foram tentados o Git instalado e o Git incluído no runtime. Ambos falharam ao iniciar o shell usado pelo Git Credential Manager, com acesso negado (`NtCreateDirectoryObject`, código 0xC0000022). O envio terminou sem autenticação. A leitura pública funciona, mas isso não comprova escrita.
+Inicialmente, foram tentados o Git instalado e o Git incluído no runtime. Ambos falharam ao iniciar o shell usado pelo Git Credential Manager, com acesso negado (`NtCreateDirectoryObject`, código 0xC0000022). Essas primeiras tentativas terminaram sem autenticação.
 
-Depois das tentativas, `git ls-remote origin refs/heads/main` confirmou que main permanece em `5b2436c19d1cdadfce45eb78212cd34b779d2d18`. O commit local de conteúdo é `e0c39701c40e8dec6d12d4c1732c76be45a92c06`. Este registro de falha é um segundo commit local. Nenhum commit novo foi confirmado no GitHub.
+Depois dessas tentativas iniciais, main ainda estava em `5b2436c19d1cdadfce45eb78212cd34b779d2d18`. O envio posterior, já autenticado, publicou os commits e foi conferido conforme registrado no início deste documento.
 
-Se o envio por Git também falhar, o conteúdo preparado e os commits locais permanecem disponíveis. Para corrigir a integração, revise a instalação do aplicativo GitHub associado ao ChatGPT/Codex, conceda acesso a theoegito/Maratona-cin e permissão de Contents para leitura/escrita; aceite eventuais permissões pendentes e reconecte a conta correta. Alternativamente, use Git autenticado com uma conta que tenha escrita no repositório. Reconectar sem corrigir o acesso ao repositório pode manter o 403.
+Para corrigir separadamente o conector, revise a instalação do aplicativo GitHub associado ao ChatGPT/Codex, conceda acesso a theoegito/Maratona-cin e permissão de Contents para leitura/escrita; aceite eventuais permissões pendentes e reconecte a conta correta. O Git autenticado já funcionou para esta publicação.
 
 Referência: [GitHub - troubleshooting da REST API](https://docs.github.com/en/rest/using-the-rest-api/troubleshooting-the-rest-api). O 403 indica permissões insuficientes do token da integração; para a criação de blobs, verifique Contents com escrita. Se a aplicação não oferecer essa permissão, use uma via de Git autenticada com escrita.
 
-## Publicar os commits preparados por um terminal normal
+## Conferir envios futuros
 
-No checkout local preparado, depois de corrigir a autenticação:
+No checkout local autenticado:
 
 ```sh
 git fetch origin main
