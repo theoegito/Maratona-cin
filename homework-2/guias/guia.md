@@ -1,19 +1,22 @@
 # Guia explicado - Homework 2
 
+[Início](../../README.md) · [Homework 2](../README.md) · [Consulta de contest](../../consulta/README.md) · [Funções A–Z](../../consulta/funcoes/README.md)
+
 Os exemplos completos estão em ../templates/. Custos e hipóteses fazem parte de cada receita.
 
 ## Índice
 
-1. sort e comparadores
-2. lower_bound e upper_bound
-3. next_permutation
-4. two pointers
-5. sliding window
-6. sweep line
-7. binary search na resposta
-8. bitmask
-9. recursão e backtracking
+1. [sort e comparadores](#tema-1)
+2. [lower_bound e upper_bound](#tema-2)
+3. [next_permutation](#tema-3)
+4. [two pointers](#tema-4)
+5. [sliding window](#tema-5)
+6. [sweep line](#tema-6)
+7. [binary search na resposta](#tema-7)
+8. [bitmask](#tema-8)
+9. [recursão e backtracking](#tema-9)
 
+<a id="tema-1"></a>
 ## 1. sort e comparadores
 
 **Fonte e escopo:** Oficial: aula 1.
@@ -26,6 +29,7 @@ Um comparador precisa estabelecer ordem estrita: `a < b`, nunca `a <= b`. Deve s
 
 **Salva na prova:** ordene dados associados juntos; ordenar só os valores perde os índices. **Pegadinha:** ordenar uma sequência pode destruir a contiguidade original exigida pelo problema.
 
+<a id="tema-2"></a>
 ## 2. lower_bound e upper_bound
 
 **Fonte e escopo:** Oficial: aulas 1 e 2.
@@ -38,6 +42,7 @@ Para [L,R] fechado, quantidade = upper_bound(R)-lower_bound(L). Para (L,R), use 
 
 **Salva na prova:** bounds contam valores com duplicatas sem percorrer todos. **Pegadinha:** use `s.lower_bound(x)` em set/map. O algoritmo genérico faz O(log n) comparações, mas pode avançar iteradores em O(n). Ordem e comparador precisam ser os mesmos da busca.
 
+<a id="tema-3"></a>
 ## 3. next_permutation
 
 **Fonte e escopo:** Oficial: aula 1; aplicado no original N.
@@ -50,6 +55,7 @@ Uma chamada custa O(n); enumerar e imprimir P permutações custa O(nP), com P<=
 
 **Salva na prova:** enumere para construir uma referência de testes pequenos. **Pegadinha:** começar desordenado deixa de visitar ordens anteriores; usar while sem do ignora a configuração inicial.
 
+<a id="tema-4"></a>
 ## 4. two pointers
 
 **Fonte e escopo:** Oficial: aula 2; pares como extra de aplicação no original L.
@@ -62,6 +68,7 @@ Ordenar custa O(n log n); a varredura custa O(n), pois cada ponteiro percorre no
 
 **Salva na prova:** definir o que cada ponteiro elimina é uma prova curta de correção. **Pegadinha:** índice na lista ordenada não é índice original; não confunda par com segmento contíguo.
 
+<a id="tema-5"></a>
 ## 5. sliding window
 
 **Fonte e escopo:** Oficial: two pointers da aula 2; janela fixa e frequências retomam a primeira semana.
@@ -74,6 +81,7 @@ Com negativos, soma pode diminuir ao expandir. Exemplo [4,-3], S=2: descartar 4 
 
 **Salva na prova:** quando todos os comprimentos menores são válidos, adicionar r-l+1 pode contar segmentos terminando em r; prove essa propriedade antes. **Pegadinha:** limite negativo pode esvaziar a janela e ainda violar a condição; use pré-condições explícitas ou um algoritmo adequado.
 
+<a id="tema-6"></a>
 ## 6. sweep line
 
 **Fonte e escopo:** Oficial: aula 2; cuidado de fronteiras esclarecido.
@@ -88,6 +96,7 @@ Em coordenadas inteiras pequenas, vetor de diferenças pode ser mais simples; em
 
 **Salva na prova:** empates de coordenadas são parte do algoritmo. **Pegadinha oficial:** a aula enuncia intervalos abertos; não copie uma implementação de fechados sem adaptar as fronteiras.
 
+<a id="tema-7"></a>
 ## 7. binary search na resposta
 
 **Fonte e escopo:** Oficial: aula 2 (Factory Machines).
@@ -104,6 +113,7 @@ Para maximizar distância (I), ok(d) é true true false false. Um greedy coloca 
 
 **Salva na prova:** escreva na margem a sequência F...F T...T ou T...T F...F. **Pegadinha:** monotonicidade precisa ser demonstrada; uma função qualquer não pode ser resolvida por busca binária.
 
+<a id="tema-8"></a>
 ## 8. bitmask
 
 **Fonte e escopo:** Oficial: aula 2, slide 47 (Subconjuntos); aplicado em G, M e O.
@@ -116,6 +126,7 @@ M: diferença dos dois grupos = abs(total-2*somaEscolhida), com contas que caiba
 
 **Salva na prova:** máscaras são uma referência simples contra soluções mais rápidas em casos pequenos. **Pegadinha:** `1<<n` desloca int mesmo se a variável destino for long long. `__builtin_popcountll` é extensão GNU, não função ISO C++17.
 
+<a id="tema-9"></a>
 ## 9. recursão e backtracking
 
 **Fonte e escopo:** Oficial: aula 2.

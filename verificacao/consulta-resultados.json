@@ -1,0 +1,613 @@
+{
+  "data": "2026-10-10",
+  "commit_anterior": "bf0bd43c0af65de8fd5b852404de36044deb029c",
+  "escopo": "Organização do README, navegação de contest e novas referências C++17; nenhuma edição de soluções, templates ou PDFs existentes.",
+  "integridade": [
+    {
+      "arquivo": "guias/consulta-rapida.pdf",
+      "bytes_checkout": 116735,
+      "sha256_checkout": "23c54c514ab00b66d0f4e4f3623181b25bc6963c70a8f7f310fd917232a686b4",
+      "sha256_blob_anterior": "23c54c514ab00b66d0f4e4f3623181b25bc6963c70a8f7f310fd917232a686b4",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/guias/consulta-rapida.pdf",
+      "bytes_checkout": 5707,
+      "sha256_checkout": "7fb34cf78dc544f7b977baa3d67f65f2d532641d42bff5bd65df4b769a54bc6f",
+      "sha256_blob_anterior": "7fb34cf78dc544f7b977baa3d67f65f2d532641d42bff5bd65df4b769a54bc6f",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/A.cpp",
+      "bytes_checkout": 862,
+      "sha256_checkout": "9f73dbcdf6ee1ba6add5241c7a7ed3cd0c809cdad096088f25a1b597e92969b3",
+      "sha256_blob_anterior": "9f73dbcdf6ee1ba6add5241c7a7ed3cd0c809cdad096088f25a1b597e92969b3",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/B.cpp",
+      "bytes_checkout": 1953,
+      "sha256_checkout": "afcbffc6146af9531d5f27e5adb164c9cf22fd681cc77c71ab9bb15754f18a4b",
+      "sha256_blob_anterior": "afcbffc6146af9531d5f27e5adb164c9cf22fd681cc77c71ab9bb15754f18a4b",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/C.cpp",
+      "bytes_checkout": 829,
+      "sha256_checkout": "75934ed4734e8db394919863652a9d5c2abc877a8144e9d067d20d1f191cb014",
+      "sha256_blob_anterior": "75934ed4734e8db394919863652a9d5c2abc877a8144e9d067d20d1f191cb014",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/D.cpp",
+      "bytes_checkout": 825,
+      "sha256_checkout": "dc5a48f615408c05bc704d51d8471908e8a6b5efa2ce3b82bab63f7fd43a9419",
+      "sha256_blob_anterior": "dc5a48f615408c05bc704d51d8471908e8a6b5efa2ce3b82bab63f7fd43a9419",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/E.cpp",
+      "bytes_checkout": 1239,
+      "sha256_checkout": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
+      "sha256_blob_anterior": "9878b6453b99149dc12b47ab5e501d13bbb0a5969eea0d4c03ba5b93d5a9a5d1",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/F.cpp",
+      "bytes_checkout": 1066,
+      "sha256_checkout": "0a31f4d9f6aa2d08bc82985d048d5e101102cf48990bf5b42ade87e1e80be86d",
+      "sha256_blob_anterior": "0a31f4d9f6aa2d08bc82985d048d5e101102cf48990bf5b42ade87e1e80be86d",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/G.cpp",
+      "bytes_checkout": 1079,
+      "sha256_checkout": "3cdee2349fd575bd9e49d05bc91662ef58fc8b609cc25111241bf4822a3c07fa",
+      "sha256_blob_anterior": "3cdee2349fd575bd9e49d05bc91662ef58fc8b609cc25111241bf4822a3c07fa",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/I.cpp",
+      "bytes_checkout": 1547,
+      "sha256_checkout": "22734f3d75c1feca969f3869825d5e41b700ddae8765072a3a16fb72f098e6b2",
+      "sha256_blob_anterior": "22734f3d75c1feca969f3869825d5e41b700ddae8765072a3a16fb72f098e6b2",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/J.cpp",
+      "bytes_checkout": 1344,
+      "sha256_checkout": "e74693dcaf17989e1236b9805ee6e4b971ae317a2fa3fe190007f95ae3c1c372",
+      "sha256_blob_anterior": "e74693dcaf17989e1236b9805ee6e4b971ae317a2fa3fe190007f95ae3c1c372",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/K.cpp",
+      "bytes_checkout": 779,
+      "sha256_checkout": "af962a7d41d856b60396a3e4b2019291e23370f07008997c04e6fe0ff5088d75",
+      "sha256_blob_anterior": "af962a7d41d856b60396a3e4b2019291e23370f07008997c04e6fe0ff5088d75",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/L.cpp",
+      "bytes_checkout": 925,
+      "sha256_checkout": "0b00ade027784679e9cc7be0abe984411e6eb58022ee63f0b61a21913e639d3e",
+      "sha256_blob_anterior": "0b00ade027784679e9cc7be0abe984411e6eb58022ee63f0b61a21913e639d3e",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/M.cpp",
+      "bytes_checkout": 908,
+      "sha256_checkout": "c58a08e35b61f9f7e4172fe6e7be19b1b88db43b04f8613b1e7040e0d4f9efba",
+      "sha256_blob_anterior": "c58a08e35b61f9f7e4172fe6e7be19b1b88db43b04f8613b1e7040e0d4f9efba",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/N.cpp",
+      "bytes_checkout": 499,
+      "sha256_checkout": "5dad03d4b4c3d2a7a5cf9e73c10157f537d066a5f8d6ceebef4987cb168f032b",
+      "sha256_blob_anterior": "5dad03d4b4c3d2a7a5cf9e73c10157f537d066a5f8d6ceebef4987cb168f032b",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/solucoes/O.cpp",
+      "bytes_checkout": 1122,
+      "sha256_checkout": "5343a0d5372404b68514c69e8692ebf5bbc72bfed1d3a70e886fc2ac930b1151",
+      "sha256_blob_anterior": "5343a0d5372404b68514c69e8692ebf5bbc72bfed1d3a70e886fc2ac930b1151",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "homework-2/templates/backtracking.cpp",
+      "bytes_checkout": 1108,
+      "sha256_checkout": "61c1bab44f9d9b349cab448cc92843d06b0a588177b137912425ca1db3efe7a0",
+      "sha256_blob_anterior": "026ab934a6557d60d9ada1929fd561fb2c07c88ada88e267958cbc85cb46b740",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/binary_search_resposta.cpp",
+      "bytes_checkout": 949,
+      "sha256_checkout": "eebcc63c713764ab1a30375687a5c5ee1338f622570a85f4b433e2ae8eb5253f",
+      "sha256_blob_anterior": "b27865bdbad6cf7654dee92b8fc61e90348b6e5f87194fe9a673248dd6b66b7d",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/bitmask.cpp",
+      "bytes_checkout": 763,
+      "sha256_checkout": "4f48254f44abce671bfd3bd56ddc231ca087a2e130654385e9cac5448ce81004",
+      "sha256_blob_anterior": "16a61b8b9ce48e84aca4327e56a7aed4d8adfbec2c5beece19a4454c66c61ddd",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/bounds.cpp",
+      "bytes_checkout": 554,
+      "sha256_checkout": "f5ff2e74126e71fe9f06ec4d2b2d8430b9a41f3b5ec7e3c3bfbe57afab3ee3d1",
+      "sha256_blob_anterior": "519a6e590c236d4bb646eb77734dafd093ae67807e5a181065418a5fc803ad99",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/next_permutation.cpp",
+      "bytes_checkout": 399,
+      "sha256_checkout": "d34b2a10dc2ab700cbb3e1e6f7b675b18835759f3962cc2901fa4a140e4ed40e",
+      "sha256_blob_anterior": "d86c4aabc934f3783d4631532b5def90b904560713ea3d8c6554c5af92e17267",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/pilha_monotonica.cpp",
+      "bytes_checkout": 627,
+      "sha256_checkout": "63f06613599fe353531324c14db98f291dcb9726c05707eb416c32b768e8d9b1",
+      "sha256_blob_anterior": "7cb180b85a91ff39002e9338eadbe85ea7a5225e1ec821a8679c8b711477900f",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/recursao_subset.cpp",
+      "bytes_checkout": 722,
+      "sha256_checkout": "8747a3172437de56c1b08baec84eba4d94d889285553ad543684ac00e750198d",
+      "sha256_blob_anterior": "03519a653a0c8a68aa366880e0877faf30b7559cab041db5c993eed1afd19f6a",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/sliding_window.cpp",
+      "bytes_checkout": 590,
+      "sha256_checkout": "6b03ca41e11e13eb04bf5739ff0ab546d1d787f742644ba006bfc010b761906c",
+      "sha256_blob_anterior": "9726c22f1ca2fa8be74daa4b3b81f4cbfd469182dba2654b250d662d75155b39",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/sort_indices.cpp",
+      "bytes_checkout": 663,
+      "sha256_checkout": "52d713739fa8fc38e347aa083d3479e5f2ddf353c7a658c5cec51cdc4fb04e22",
+      "sha256_blob_anterior": "e979215fd08ba56ebab98dd7b9cc4687e6de84fbe466a11c22b7669a2f703b8a",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/sweep_line.cpp",
+      "bytes_checkout": 1025,
+      "sha256_checkout": "43a259a76143ad057fa0511461a96ae1735237dab3e00ab19d96ec7bf337fe49",
+      "sha256_blob_anterior": "afac2eee07abce250cbb23c1cd6a7aa73e301bd21f876ec8ecfd8bf89d7aafa8",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "homework-2/templates/two_pointers.cpp",
+      "bytes_checkout": 787,
+      "sha256_checkout": "f462c43d6162543d03281ebd0619f6abc0a8213e803a37f1a2694bbcf48da6e7",
+      "sha256_blob_anterior": "bae3329c626a2f4866409545561067c003d82194d34789cc4a40fefdaf206e86",
+      "bytes_iguais_ao_blob_anterior": false,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": true
+    },
+    {
+      "arquivo": "solucoes/A.cpp",
+      "bytes_checkout": 1975,
+      "sha256_checkout": "3d5aca472f9b472aa793c4ea8c6722972f37792fb062134fd0c8958bab4d7886",
+      "sha256_blob_anterior": "3d5aca472f9b472aa793c4ea8c6722972f37792fb062134fd0c8958bab4d7886",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/B.cpp",
+      "bytes_checkout": 1180,
+      "sha256_checkout": "b67593f84645269880ef968c3791488f4dc973cfa91d9e6d8cc836e3620850d5",
+      "sha256_blob_anterior": "b67593f84645269880ef968c3791488f4dc973cfa91d9e6d8cc836e3620850d5",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/C.cpp",
+      "bytes_checkout": 1424,
+      "sha256_checkout": "964a63d3a6b84db7173ed1f788521614c35ecdc00ee1f52560fbadcc0b694866",
+      "sha256_blob_anterior": "964a63d3a6b84db7173ed1f788521614c35ecdc00ee1f52560fbadcc0b694866",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/D.cpp",
+      "bytes_checkout": 853,
+      "sha256_checkout": "bdc7cecac4e12c01ee609762cfa082764f075d38cb147e5a49b80cc7949e224b",
+      "sha256_blob_anterior": "bdc7cecac4e12c01ee609762cfa082764f075d38cb147e5a49b80cc7949e224b",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/E.cpp",
+      "bytes_checkout": 1160,
+      "sha256_checkout": "d55f7fa11ddea5d5c473a31a7bd5ef180ba7d46cec20c1399431b21cddcfcbbe",
+      "sha256_blob_anterior": "d55f7fa11ddea5d5c473a31a7bd5ef180ba7d46cec20c1399431b21cddcfcbbe",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/I.cpp",
+      "bytes_checkout": 568,
+      "sha256_checkout": "f2511e8ff3bffa486597e9a0f0b86c9282143befd5264602ca4e0383a591f3f2",
+      "sha256_blob_anterior": "f2511e8ff3bffa486597e9a0f0b86c9282143befd5264602ca4e0383a591f3f2",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/K.cpp",
+      "bytes_checkout": 2713,
+      "sha256_checkout": "64a8f88e82f8b66e74dcff399f09bac601c49f4ceafe3cd7c75ee8db95b8dea3",
+      "sha256_blob_anterior": "64a8f88e82f8b66e74dcff399f09bac601c49f4ceafe3cd7c75ee8db95b8dea3",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/M.cpp",
+      "bytes_checkout": 611,
+      "sha256_checkout": "c228168657c01c33c8906250017c8caa446294b2a1d4d1ff136b17083ca30b56",
+      "sha256_blob_anterior": "c228168657c01c33c8906250017c8caa446294b2a1d4d1ff136b17083ca30b56",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "solucoes/N.cpp",
+      "bytes_checkout": 571,
+      "sha256_checkout": "2895ffbbb8558008ac132f05aec005afd0e0a1a6c6898acdc566f4c334314fd4",
+      "sha256_blob_anterior": "2895ffbbb8558008ac132f05aec005afd0e0a1a6c6898acdc566f4c334314fd4",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "templates/base.cpp",
+      "bytes_checkout": 1407,
+      "sha256_checkout": "0927212280c123d6c290fc26254f7d335f08ddfdda10a59991e9a2936355ca81",
+      "sha256_blob_anterior": "0927212280c123d6c290fc26254f7d335f08ddfdda10a59991e9a2936355ca81",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "templates/greedy_priority_queue.cpp",
+      "bytes_checkout": 1524,
+      "sha256_checkout": "5d8471a959eca7dec2bd54b86afd5d36af1addd1e6e2d9ba306a640fa22688b4",
+      "sha256_blob_anterior": "5d8471a959eca7dec2bd54b86afd5d36af1addd1e6e2d9ba306a640fa22688b4",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "templates/prefix_sum.cpp",
+      "bytes_checkout": 1083,
+      "sha256_checkout": "390e6eb5505464f5f3af3255a7bd44b5a07778f28ebd008311e819bbb7b26eca",
+      "sha256_blob_anterior": "390e6eb5505464f5f3af3255a7bd44b5a07778f28ebd008311e819bbb7b26eca",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "templates/sliding_window.cpp",
+      "bytes_checkout": 1523,
+      "sha256_checkout": "a1c0b54d3f3dcc0f0baafd39c6b7feb1780446df6e2aa7c8c111dd1f4356d536",
+      "sha256_blob_anterior": "a1c0b54d3f3dcc0f0baafd39c6b7feb1780446df6e2aa7c8c111dd1f4356d536",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "templates/sort_comparador.cpp",
+      "bytes_checkout": 1374,
+      "sha256_checkout": "d96ac76061bfe7e7eb2a0c2d0751b009866a56f5afc0b6833abfb047a2abf120",
+      "sha256_blob_anterior": "d96ac76061bfe7e7eb2a0c2d0751b009866a56f5afc0b6833abfb047a2abf120",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    },
+    {
+      "arquivo": "templates/subarray_sum_map.cpp",
+      "bytes_checkout": 1157,
+      "sha256_checkout": "405d5d10b72fafa3718a1583a932ccb6d3b742d27832e26aeb62e07d3c975c82",
+      "sha256_blob_anterior": "405d5d10b72fafa3718a1583a932ccb6d3b742d27832e26aeb62e07d3c975c82",
+      "bytes_iguais_ao_blob_anterior": true,
+      "conteudo_inalterado": true,
+      "crlf_do_checkout_normalizado": false
+    }
+  ],
+  "originais_preservados": 23,
+  "templates_sem_alteracao_de_conteudo": 17,
+  "pdfs_preservados": 2,
+  "funcoes": {
+    "paginas": 13,
+    "fragmentos_compilados": 32,
+    "fragmentos_sha256": [
+      {
+        "arquivo": "consulta/funcoes/accumulate.md",
+        "bloco": 1,
+        "sha256": "c872bd81be4afe97fe1fd78e6ead7c1380a211a5ab655c710d54b7d66cb3df71"
+      },
+      {
+        "arquivo": "consulta/funcoes/accumulate.md",
+        "bloco": 2,
+        "sha256": "9a9641660582eef78877e74585cf1de3251e330c3644eced5780ee77938c4549"
+      },
+      {
+        "arquivo": "consulta/funcoes/binary_search.md",
+        "bloco": 1,
+        "sha256": "e4777dba3ee2ecc1933dbcaaf8d0721f3a89329afcc0748fec670a43bcc24f4f"
+      },
+      {
+        "arquivo": "consulta/funcoes/entrada_tipos_funcoes.md",
+        "bloco": 1,
+        "sha256": "af2dccc3cf8e53c7dcc1930c36729f9e75a297dafd2f8ffcb3b592624cae374c"
+      },
+      {
+        "arquivo": "consulta/funcoes/entrada_tipos_funcoes.md",
+        "bloco": 2,
+        "sha256": "755717c6ab38e4cc0100b761135136b97a19e6bb5b9aa7ad93fdb1a5b1cc0b60"
+      },
+      {
+        "arquivo": "consulta/funcoes/entrada_tipos_funcoes.md",
+        "bloco": 3,
+        "sha256": "42085f777275c20a88e41afb585cf2ce29157d006e7f5a407e2ef73464cfb6e6"
+      },
+      {
+        "arquivo": "consulta/funcoes/entrada_tipos_funcoes.md",
+        "bloco": 4,
+        "sha256": "468e1a3ab2252f38548dc6d0ced42ec4ea468e713267e38c3ae3bd0b2e972fc3"
+      },
+      {
+        "arquivo": "consulta/funcoes/find_count_reverse.md",
+        "bloco": 1,
+        "sha256": "1a3febf77ad7533c57b9e01e1673b923d9b6a1a05df9105bc74f398f3b6566b4"
+      },
+      {
+        "arquivo": "consulta/funcoes/find_count_reverse.md",
+        "bloco": 2,
+        "sha256": "67c1b3a749384f6df304624ed10a5dea2b07404bcbbfec92a9b59ed72649bc37"
+      },
+      {
+        "arquivo": "consulta/funcoes/lower_bound.md",
+        "bloco": 1,
+        "sha256": "5341c29dff39f688650f211b95bb9aa1330785b48d6247395b0d69da9d5291f3"
+      },
+      {
+        "arquivo": "consulta/funcoes/lower_bound.md",
+        "bloco": 2,
+        "sha256": "459ed8ab6febf592dcfe9172781e457378e7844147f50cff50fa9584c76a2c44"
+      },
+      {
+        "arquivo": "consulta/funcoes/lower_bound.md",
+        "bloco": 3,
+        "sha256": "fda8b69e972da648e085c127a1bffd22b1dc53dd1e85c9dbbdc19209591be23e"
+      },
+      {
+        "arquivo": "consulta/funcoes/lower_bound.md",
+        "bloco": 4,
+        "sha256": "04b9b28a2d0fdb44bd5bc43edfe386f4fbb4e9965411bfdfd3649d6b89c01700"
+      },
+      {
+        "arquivo": "consulta/funcoes/map_set.md",
+        "bloco": 1,
+        "sha256": "65fc8920b13b2f2e367bb1b389dc60bfaea491cff11277eb89f10cd6f66c7965"
+      },
+      {
+        "arquivo": "consulta/funcoes/map_set.md",
+        "bloco": 2,
+        "sha256": "822ed35c5edec0715d419b36ee1752d181cc900f0f34a940ae22133c6deefa38"
+      },
+      {
+        "arquivo": "consulta/funcoes/map_set.md",
+        "bloco": 3,
+        "sha256": "99b5ee48ba31601c97c074f72a8238a1f8b9013f8979cbc7cf9654dd87006d04"
+      },
+      {
+        "arquivo": "consulta/funcoes/min_max.md",
+        "bloco": 1,
+        "sha256": "bff06c8bccbb475758486c9a00209b37a13ab324ccbc8ed2b51bb25f032ecfc9"
+      },
+      {
+        "arquivo": "consulta/funcoes/min_max.md",
+        "bloco": 2,
+        "sha256": "162b20d0d0df872c4e6e7db5124cc62ef380bd7ed695d76f0abe6fd4d3c90125"
+      },
+      {
+        "arquivo": "consulta/funcoes/next_permutation.md",
+        "bloco": 1,
+        "sha256": "182eb773dba82086b52767c4ccbe23bd965f7e9c7dc0857feb7f0e94c362d07e"
+      },
+      {
+        "arquivo": "consulta/funcoes/pilha_fila_heap.md",
+        "bloco": 1,
+        "sha256": "b7cc0b2f67d38be64bfccb8b3c6bbcd7abf0f71489272c00eda88247c361559e"
+      },
+      {
+        "arquivo": "consulta/funcoes/pilha_fila_heap.md",
+        "bloco": 2,
+        "sha256": "b230df62e7b33661f8cc38f0a72f3a3a29573e6f283fe13f00b91a48780325b6"
+      },
+      {
+        "arquivo": "consulta/funcoes/pilha_fila_heap.md",
+        "bloco": 3,
+        "sha256": "86d2d8ce26809cd585aefc62e7e681d23a7bcf8e5c4756b54a4ce783e765e0cd"
+      },
+      {
+        "arquivo": "consulta/funcoes/sort.md",
+        "bloco": 1,
+        "sha256": "e2109f6569d78febe21f655b3e423ca2e51cf335bd5f6407de9673771c430ccc"
+      },
+      {
+        "arquivo": "consulta/funcoes/sort.md",
+        "bloco": 2,
+        "sha256": "66055f1c750a5475fe503079fb361dbe2e4e79475bd97f44dba878f3ece4a865"
+      },
+      {
+        "arquivo": "consulta/funcoes/unique_erase.md",
+        "bloco": 1,
+        "sha256": "d839fb83b342ee01024e8c1d2b7659e2b7136ca22763ba78847200788b5bdace"
+      },
+      {
+        "arquivo": "consulta/funcoes/unique_erase.md",
+        "bloco": 2,
+        "sha256": "ae5b3f8460269bf312f8345d09236c95b9862ff94ba94a00b9bfe455bfb066de"
+      },
+      {
+        "arquivo": "consulta/funcoes/upper_bound.md",
+        "bloco": 1,
+        "sha256": "65d1b7f10218fa9671b59499cb668a9a6851807fff0f92279c12bbbe879be9f0"
+      },
+      {
+        "arquivo": "consulta/funcoes/upper_bound.md",
+        "bloco": 2,
+        "sha256": "6d80b5d0960ae2a927a43607470e985afbc2dcd3e2c9b26dd127b01931139bb0"
+      },
+      {
+        "arquivo": "consulta/funcoes/vector_string.md",
+        "bloco": 1,
+        "sha256": "c49e37d431f5c3e884449573aa620404bcee9cc438ad2b4c34e1e0f4321892e0"
+      },
+      {
+        "arquivo": "consulta/funcoes/vector_string.md",
+        "bloco": 2,
+        "sha256": "a50d391aece7a31e03ad20106c19db6c3ad71852101de1530348effb77e90dad"
+      },
+      {
+        "arquivo": "consulta/funcoes/vector_string.md",
+        "bloco": 3,
+        "sha256": "97a0f250eb91cd3f51c7de97e17210f1b4d60ff2b59a2a45683bb7d36e77c489"
+      },
+      {
+        "arquivo": "consulta/funcoes/vector_string.md",
+        "bloco": 4,
+        "sha256": "ee08f209a547895a09fb03db93627db53188bc611e09bb779eb68d4ebf760812"
+      }
+    ],
+    "compilacao_erros": 0,
+    "casos_semanticos": 46,
+    "assertions_containers_strings_tipos": 61,
+    "checks_compilacao_tipos": 7,
+    "avisos_variaveis_didaticas_nao_usadas": 19,
+    "outros_avisos": 0,
+    "falhas": 0
+  },
+  "algoritmos": {
+    "fragmentos_compilados": 13,
+    "fragmentos_sha256": {
+      "prefix-sum": "826aa4f6a35d096d51eef62e181b459c46f4982aee3f688ca2dfc5d7f81ad69e",
+      "prefixos-map": "3ef723db9fd2676901c6e6006ae24c803ca96fb488fac54792ae93779eca7007",
+      "janela-fixa": "91b6a49b056563dd173847b98ed35f94ef01b48d950f35d9d66e06a7f1ab45b8",
+      "janela-variavel": "e426266a05aa37cd619cf6f61dd198c7c9d40cfa79a99400a839228aefbfbc14",
+      "two-pointers": "2df960f64edf528d216a0a72e203562fe58cb5e6f22a2e8d65f2e72d5d5bcd44",
+      "sweep-line": "8632c4ea0ae92b421376062e9620b98103922273608a90ada304053883115352",
+      "busca-minimo": "e91b3f017377cf2bf41d1ee8bbe736d878cd43e724d42897ef217b490975d939",
+      "busca-maximo": "8e62d490a698790d825eec409bcbd1e30cb44992d3455e6ada68b93414e620a7",
+      "bitmask": "784d46d0c2398663935ece8931ec37a6d6b260fcb31374021d1dfca0dc9a6eed",
+      "backtracking": "0724dfe51349824c7bf5b3cf6e05efc3e1fadb6835b68f2cd12642903518042d",
+      "pilha-monotonica": "68233a328dee41a2df526f69b30dbd1941d0b4c5640d0cadfa98e0998aeef75a",
+      "compressao": "d31fd55eca5e9ef0630acbc78b1b0c4baeb43c04b67cd7747319c897db6d6eca",
+      "greedy-heap": "3516c41f3bb70fd566103a2d6a471b0847113883a2a138ab62cae76fb7eafee5"
+    },
+    "flags": [
+      "-std=c++17",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic"
+    ],
+    "avisos": 0,
+    "metodo": "Markdown fragments extracted unchanged; C++17 wrappers compared with direct summation, exhaustive pairs/subsets/partitions, direct interval membership, and set-based reference calculations.",
+    "checks": {
+      "backtracking": 84,
+      "binary_max": 29,
+      "binary_min": 69,
+      "bitmask": 84,
+      "compression": 21,
+      "fixed_window": 60,
+      "greedy_heap": 21,
+      "monotonic_stack": 21,
+      "prefix_map": 84,
+      "prefix_sum": 86,
+      "sweep_closed": 30,
+      "two_pointers": 84,
+      "variable_window": 58
+    },
+    "total": 731,
+    "failures": 0
+  },
+  "navegacao": {
+    "markdown_files": 30,
+    "local_links_checked": 507,
+    "links_with_fragment": 170,
+    "link_errors": [],
+    "week1_content_preserved_with_allowed_navigation_changes": true,
+    "week1_diff": ""
+  }
+}

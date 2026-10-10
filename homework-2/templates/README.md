@@ -1,5 +1,7 @@
 # Templates C++17
 
+[Início](../../README.md) · [Todos os templates](../../consulta/templates.md) · [Consulta de contest](../../consulta/README.md)
+
 Cada programa lê entrada padrão e imprime a resposta. São exemplos didáticos adicionais, não versões editadas dos originais.
 
 | Arquivo | Entrada | Saída |

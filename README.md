@@ -1,122 +1,76 @@
-# Maratona CIn · meu caderno de C++
+# Maratona CIn · C++17
 
-Soluções e material de estudo da preparação para a Maratona CIn, com explicações para quem está começando em C++ e programação competitiva.
+**Caderno de contest:** sintaxe, significado das funções, algoritmos e soluções organizados para encontrar a informação durante a prova.
 
-## Por onde começar
+[Consulta de contest](consulta/README.md) · [Funções A–Z](consulta/funcoes/README.md) · [Algoritmos](consulta/algoritmos.md) · [Templates](consulta/templates.md)
 
-| Quero… | Abra |
-|---|---|
-| Entender os comandos com calma | [Guia de C++](guias/guia-cpp.md) |
-| Consultar sintaxe enquanto resolvo | [Consulta rápida](guias/consulta-rapida.md) |
-| Ler ou imprimir a consulta rápida | [PDF complementar](guias/consulta-rapida.pdf) |
-| Ver meus códigos enviados | [Soluções](solucoes/) |
-| Testar exemplos pequenos e comentados | [Templates](templates/) |
+> **Procurando `lower_bound`? [Abra a página direta →](consulta/funcoes/lower_bound.md)**<br>
+> Primeiro **maior ou igual (>=)**, índice, iterador, duplicatas, predecessor, busca binária.<br>
+> `upper_bound` é o primeiro **estritamente maior (>)**: [veja a comparação e os intervalos](consulta/funcoes/upper_bound.md).
 
-**Sugestão de estudo:** template e entrada/saída → `vector` e `string` → STL → complexidade → prefix sum → janela deslizante → prefix sum com `map` → greedy com heap → comparadores.
+## Acesso rápido durante o contest
 
-## Organização
-
-```text
-maratona-cin/
-├── README.md
-├── solucoes/                  # Os nove .cpp originais
-├── guias/
-│   ├── guia-cpp.md             # Explicações e exemplos
-│   ├── consulta-rapida.md      # Tabelas e lembretes
-│   └── consulta-rapida.pdf     # Complemento para leitura offline
-├── templates/                 # Programas didáticos independentes
-└── verificacao/
-    ├── originais-sha256.txt    # Registro de integridade
-    └── validacao.md            # O que foi conferido
-```
-
-## Minhas soluções
-
-Os arquivos abaixo foram copiados **sem alterar seu conteúdo, formatação ou quebras de linha**. Os assuntos foram identificados pela leitura do código; os enunciados completos e o histórico de submissões não vieram com os anexos. Por isso, esta tabela não afirma que as soluções foram aceitas pelo juiz.
-
-| Arquivo | O que o código pratica |
-|---|---|
-| [A.cpp](solucoes/A.cpp) | `deque`, inserção/remoção nas duas pontas e atualização da contagem de pares |
-| [B.cpp](solucoes/B.cpp) | `map` de nomes e pontos, `find`, acumulação e ordem original em `vector` |
-| [C.cpp](solucoes/C.cpp) | Simulação com três `stack`, `top`, `pop` e registro de operações |
-| [D.cpp](solucoes/D.cpp) | Greedy com `priority_queue` mínima e manutenção de uma soma não negativa |
-| [E.cpp](solucoes/E.cpp) | Janela de tamanho fixo, frequências com `map` e números distintos |
-| [I.cpp](solucoes/I.cpp) | Prefix sum e consultas de soma em intervalos |
-| [K.cpp](solucoes/K.cpp) | `string`, caracteres `'0'`/`'1'` e contagem de blocos consecutivos |
-| [M.cpp](solucoes/M.cpp) | Prefix sum + `map` para contar subarrays com soma alvo |
-| [N.cpp](solucoes/N.cpp) | `sort` com comparador de concatenações de strings |
-
-Se encontrar um erro, registre a correção em uma nova versão com uma explicação. O registro dos anexos em [originais-sha256.txt](verificacao/originais-sha256.txt) permite conferir a preservação desta primeira versão.
-
-## Como compilar e executar
-
-Cada `.cpp` tem seu próprio `main`. Compile **um arquivo por vez**; não junte todos em um único executável.
-
-Com um compilador GCC instalado, por exemplo:
-
-```sh
-g++ -std=c++17 -O2 -Wall -Wextra solucoes/I.cpp -o programa
-```
-
-| Parte do comando | Significado |
-|---|---|
-| `g++` | Compilador de C++ |
-| `-std=c++17` | Usa a versão C++17 da linguagem |
-| `-O2` | Ativa otimizações usuais |
-| `-Wall -Wextra` | Mostra avisos úteis; um aviso não é necessariamente erro |
-| `solucoes/I.cpp` | Arquivo que será compilado |
-| `-o programa` | Nome do executável gerado |
-
-No Linux/macOS, execute `./programa`. No PowerShell do Windows, execute `.\programa.exe`. Digite a entrada esperada pelo problema e pressione Enter. Para encerrar entrada até EOF, use Ctrl+D em um terminal Unix ou Ctrl+Z seguido de Enter no Windows.
-
-Exemplo pequeno para `I.cpp`:
-
-```text
-Entrada:
-5 3
-2 4 1 3 5
-1 3
-2 5
-4 4
-
-Saída:
-7
-13
-3
-```
-
-Os originais usam `<bits/stdc++.h>`, um atalho do GCC/libstdc++ comum em maratonas. Ele não faz parte do padrão C++; para maior portabilidade, veja os cabeçalhos explícitos nos templates. Em `C.cpp`, a função livre `size(...)` requer C++17 ou posterior.
-
-## Exemplos para experimentar
-
-| Programa | Entrada resumida | Ideia |
+| Preciso lembrar… | Abra direto | Palavras para pesquisar |
 |---|---|---|
-| [base.cpp](templates/base.cpp) | Template para preencher | Entrada/saída e estrutura mínima |
-| [prefix_sum.cpp](templates/prefix_sum.cpp) | `n q`, valores, consultas `l r` | Soma inclusiva de `l` até `r` |
-| [sliding_window.cpp](templates/sliding_window.cpp) | `n k`, valores | Distintos em cada janela de tamanho `k` |
-| [subarray_sum_map.cpp](templates/subarray_sum_map.cpp) | `n alvo`, valores | Conta intervalos com soma alvo, inclusive com negativos |
-| [greedy_priority_queue.cpp](templates/greedy_priority_queue.cpp) | `n`, valores | Escolhe o máximo de valores mantendo os prefixos da subsequência não negativos |
-| [sort_comparador.cpp](templates/sort_comparador.cpp) | `n`, palavras | Menor concatenação em ordem lexicográfica |
+| Primeiro >=x; posição; contar iguais | [lower_bound](consulta/funcoes/lower_bound.md) | limite inferior, maior ou igual, duplicatas |
+| Primeiro >x; último <=x; contar em [L,R] | [upper_bound](consulta/funcoes/upper_bound.md) | limite superior, intervalo, predecessor |
+| Saber se x existe numa lista ordenada | [binary_search](consulta/funcoes/binary_search.md) | presença, busca binária, bool |
+| Ordenar e desempatar | [sort / stable_sort](consulta/funcoes/sort.md) | comparador, lambda, pair, índice original |
+| Apagar repetidos ou filtrar valores | [unique + erase / remove_if](consulta/funcoes/unique_erase.md) | duplicatas, fim lógico, deduplicar |
+| Gerar todas as ordens | [next_permutation](consulta/funcoes/next_permutation.md) | permutação, anagrama, lexicográfica |
+| Somar sem estourar int | [accumulate](consulta/funcoes/accumulate.md) | 0LL, long long, overflow |
+| Buscar chave, contar frequências, apagar uma cópia | [map / set / multiset](consulta/funcoes/map_set.md) | find, count, erase, dicionário |
+| Inserir, apagar, buscar ou recortar texto | [vector / string](consulta/funcoes/vector_string.md) | push_back, reserve, resize, find, substr |
+| Retirar topo, primeiro, menor ou maior | [stack / queue / deque / heap](consulta/funcoes/pilha_fila_heap.md) | top, front, pop, priority_queue, greater |
+| Ler linha; declarar função; passar referência | [Entrada, tipos e funções](consulta/funcoes/entrada_tipos_funcoes.md) | getline, const, auto, return, lambda |
 
-Os templates são exemplos adicionais de estudo. As hipóteses, formatos e custos estão nos comentários de cada arquivo e no guia. Antes de adaptar um deles, confira as restrições do enunciado.
+Cada referência mostra **sintaxe C++17 → o que faz → o que retorna → custo → exemplo → pegadinhas**. Para lembrar uma função pelo nome, use o [catálogo completo](consulta/funcoes/README.md).
 
-## Como adicionar a próxima questão
+## Reconhecer o algoritmo
 
-1. Salve o novo arquivo em `solucoes/`, com um nome que identifique a questão.
-2. Compile e teste exemplos, casos mínimos e limites.
-3. Acrescente uma linha à tabela acima, com o assunto que praticou.
-4. Anote uma pegadinha nova no guia ou na consulta rápida.
-5. Faça um commit explicando a mudança, como `Adiciona questão F e anotação sobre set`.
+| Pista do enunciado | Receita |
+|---|---|
+| Muitas somas de intervalos | [Prefix sum](consulta/algoritmos.md#prefix-sum) |
+| Contar subarrays de soma exata, inclusive negativos | [Prefixos + map](consulta/algoritmos.md#prefixos-map) |
+| Blocos de tamanho k / maior segmento válido | [Janela fixa](consulta/algoritmos.md#janela-fixa) / [sliding window](consulta/algoritmos.md#janela-variavel) |
+| Dois números com soma alvo | [Two pointers](consulta/algoritmos.md#two-pointers) |
+| Intervalos ativos, eventos, sobreposição | [Sweep line](consulta/algoritmos.md#sweep-line) |
+| Menor tempo/capacidade ou maior distância viável | [Busca binária na resposta](consulta/algoritmos.md#busca-binaria) |
+| Enumerar subconjuntos ou escolhas com restrições | [Bitmask](consulta/algoritmos.md#bitmask) / [recursão e backtracking](consulta/algoritmos.md#backtracking) |
+| Menor anterior / coordenadas enormes / descartar o pior | [Pilha monotônica](consulta/algoritmos.md#pilha-monotonica) / [compressão](consulta/algoritmos.md#compressao) / [greedy + heap](consulta/algoritmos.md#greedy-heap) |
 
-Este repositório é um caderno de aprendizado. As regras da competição determinam quais materiais podem ser consultados durante a prova.
+## Estudo e prática por semana
 
+| Material | Semana 1 · fundamentos e STL | Homework 2 · buscas e backtracking |
+|---|---|---|
+| Índice, soluções e instruções | [Semana 1](semana-1/README.md) | [Homework 2](homework-2/README.md) |
+| Explicação para estudar com calma | [Guia C++](guias/guia-cpp.md) + [complemento](guias/complemento-semana-1.md) | [Guia da aula 2](homework-2/guias/guia.md) |
+| Consulta por semana | [Markdown](guias/consulta-rapida.md) · [PDF imprimível](guias/consulta-rapida.pdf) | [Markdown](homework-2/guias/consulta-rapida.md) · [PDF imprimível](homework-2/guias/consulta-rapida.pdf) |
+| Programas para adaptar | [6 templates](templates/) | [11 templates e suas entradas](homework-2/templates/README.md) |
+| Códigos originais preservados | [9 soluções](solucoes/) | [14 soluções](homework-2/solucoes/) |
+| Compilação e integridade | [Registro da semana 1](verificacao/validacao.md) | [Registro do Homework 2](homework-2/verificacao/validacao.md) |
 
-## Contest: índice da segunda semana
+As receitas indicam o que vem das aulas **#1 Introdução** e **-2 Buscas** e o que é aplicação ou complemento. O material da primeira semana continua disponível no seu [índice completo](semana-1/README.md); os arquivos de soluções mantêm os bytes originais.
 
-- [Homework 2: guia, consulta, templates e originais](homework-2/README.md)
-- [Complemento da primeira semana](guias/complemento-semana-1.md)
-- [Consulta rápida da segunda semana](homework-2/guias/consulta-rapida.md)
-- [PDF imprimível da segunda semana](homework-2/guias/consulta-rapida.pdf)
-- [Verificação e pendências do Homework 2](homework-2/verificacao/validacao.md)
+## Encontrar em segundos
 
-Todo o conteúdo anterior permanece preservado. A pasta solucoes/ continua sendo a primeira semana.
+1. **Se lembra do nome:** clique no atalho acima ou abra [Funções A–Z](consulta/funcoes/README.md).
+2. **Só lembra o objetivo:** abra a [consulta de contest](consulta/README.md) e use `Ctrl+F` com “maior ou igual”, “soma alvo”, “duplicatas”, “linha inteira” etc. No Mac: `Cmd+F`. Isso busca na página atual.
+3. **Quer um arquivo:** no GitHub, use **Go to file** (atalho `t`) e digite, por exemplo, `lower_bound.md` ou `binary_search_resposta.cpp`. [Atalhos oficiais](https://docs.github.com/en/get-started/accessibility/keyboard-shortcuts).
+4. **Quer ocorrências no repositório:** na busca de código do GitHub, use `repo:theoegito/Maratona-cin lower_bound`.
+
+## Organização e verificação
+
+```text
+consulta/       → entrada de contest, funções, receitas e índice de templates
+semana-1/       → índice completo da primeira semana
+guias/          → guias e PDF da primeira semana
+solucoes/       → originais da primeira semana
+templates/      → exemplos da primeira semana
+homework-2/     → guia, consulta, PDF, templates e 14 originais da segunda semana
+verificacao/    → integridade, compilação e conferência da navegação
+```
+
+Os templates são programas independentes: compile **um `.cpp` por vez** com C++17. [Formatos de entrada e atalhos para os 17 templates](consulta/templates.md). A [verificação desta organização](verificacao/consulta-contest.md) registra links, exemplos e preservação dos códigos.
+
+Ao adicionar uma questão, use a pasta da semana correspondente, anote seus assuntos no índice e acrescente uma pegadinha ou palavra-chave à consulta relevante.

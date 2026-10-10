@@ -1,5 +1,7 @@
 # C++ para Maratona CIn — um caderno para quem está começando
 
+[Início](../README.md) · [Consulta de contest](../consulta/README.md) · [Funções A–Z](../consulta/funcoes/README.md) · [Semana 1](../semana-1/README.md)
+
 Este guia usa **C++17** e parte de uma pergunta prática: **o que eu escrevo, o que isso faz e quando eu uso?** As conexões com suas questões vêm da leitura dos arquivos enviados. Sem os enunciados e os resultados do juiz, elas descrevem os conceitos presentes no código, não comprovam que cada solução foi aceita.
 
 **Como estudar:** leia as seções 1 a 5, escolha uma estrutura da STL e execute seus exemplos. Depois avance para as estratégias. Para procurar uma sintaxe durante um exercício, use a [consulta rápida](consulta-rapida.md).

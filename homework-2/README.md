@@ -1,5 +1,7 @@
 # Homework 2 - buscas e backtracking
 
+[Início](../README.md) · [Consulta de contest](../consulta/README.md) · [lower_bound](../consulta/funcoes/lower_bound.md) · [Funções A–Z](../consulta/funcoes/README.md)
+
 ## Por onde começar
 
 | Quero... | Abra |

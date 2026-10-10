@@ -1,6 +1,8 @@
 # Complemento da primeira semana
 
-Adição independente: todos os arquivos anteriores foram preservados; o README recebe apenas um índice adicional.
+[Início](../README.md) · [Semana 1](../semana-1/README.md) · [Consulta de contest](../consulta/README.md)
+
+Complemento independente aos guias anteriores. O [índice completo da primeira semana](../semana-1/README.md) reúne o material original; a [entrada de contest](../consulta/README.md) liga as consultas das duas semanas.
 
 ## Pontos oficiais a reforçar
 
