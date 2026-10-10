@@ -37,3 +37,9 @@ As receitas foram comparadas com soma direta, enumeração de pares/subconjuntos
 Os links locais foram percorridos em todos os arquivos Markdown, verificando destinos e âncoras. O resumo final está no campo `navegacao` do [registro](consulta-resultados.json). As referências externas documentam as funções e os atalhos do GitHub; a varredura de links locais não testa disponibilidade da rede.
 
 PDFs permanecem sendo as consultas por semana. A consulta unificada e os exemplos detalhados estão em Markdown, acessíveis pelos novos índices.
+
+## Ajuste do foco geral nas funções
+
+O catálogo de funções passou a ser o primeiro acesso da página inicial. A entrada traz uma tabela de chamadas com sintaxe, significado e retorno, distribuída entre entrada, parâmetros, containers, strings, algoritmos STL e operações numéricas. O índice por palavras-chave segue essas categorias; o destaque individual de bounds foi substituído pela navegação geral.
+
+Este ajuste modifica os índices e as navegações, preservando os exemplos C++17 já verificados, os códigos e os PDFs. Os links foram conferidos novamente; o registro está em `ajuste_foco_funcoes` no [JSON](consulta-resultados.json).

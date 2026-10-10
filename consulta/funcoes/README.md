@@ -4,7 +4,18 @@
 
 Procure o nome com `Ctrl+F`/`Cmd+F`. O mesmo nome pode ter semântica diferente conforme o tipo: `std::find` retorna iterador, `string::find` retorna índice; `vector::erase` recebe iterador, `multiset::erase(valor)` apaga todas as cópias.
 
-> **Mais procuradas:** [lower_bound: primeiro >=](lower_bound.md) · [upper_bound: primeiro >](upper_bound.md) · [sort](sort.md) · [map.find](map_set.md#map-find) · [min-heap](pilha_fila_heap.md#min-heap)
+## Escolha a categoria
+
+| Categoria | O que você encontra |
+|---|---|
+| [Entrada, tipos e definição de funções](entrada_tipos_funcoes.md) | cin, cout, getline, parâmetros, const, referência, return, auto, lambda |
+| [Vector e string](vector_string.md) | Acesso, tamanho, inserção, remoção, reserve, resize, find, substr |
+| [Map, set e multiset](map_set.md) | Chaves, frequências, inserção, find, count, erase, bounds, unordered_map |
+| [Pilha, fila, deque e heap](pilha_fila_heap.md) | push, pop, top, front, back, empty, prioridade mínima/máxima |
+| [Ordenação](sort.md), [busca e contagem](find_count_reverse.md), [duplicatas e filtros](unique_erase.md), [permutações](next_permutation.md), [limites](lower_bound.md) e [presença](binary_search.md) | Algoritmos STL: chamadas em faixas de iteradores, mudanças nos dados e resultados |
+| [Soma](accumulate.md), [mínimo/máximo](min_max.md) e [funções numéricas](entrada_tipos_funcoes.md#funcoes-uteis) | accumulate, min, max, extremos, gcd, lcm, abs, sqrt, pow, arredondamento |
+
+Em cada página: **sintaxe → parâmetros → significado → retorno → custo → exemplo → pegadinhas**. A tabela abaixo permite consultar diretamente pelo nome.
 
 ## Função, retorno e significado
 
@@ -67,6 +78,6 @@ Procure o nome com `Ctrl+F`/`Cmd+F`. O mesmo nome pode ter semântica diferente 
 
 ## Por assunto
 
-[Ordenação](sort.md) · [Bounds](lower_bound.md) · [Duplicatas e remoção](unique_erase.md) · [Vector/string](vector_string.md) · [Map/set](map_set.md) · [Pilha/fila/heap](pilha_fila_heap.md) · [Entrada, tipos e funções](entrada_tipos_funcoes.md)
+[Entrada, tipos e funções](entrada_tipos_funcoes.md) · [Vector/string](vector_string.md) · [Map/set](map_set.md) · [Pilha/fila/heap](pilha_fila_heap.md) · [Ordenação](sort.md) · [Duplicatas e remoção](unique_erase.md) · [Limites de busca](lower_bound.md) · [Funções numéricas](entrada_tipos_funcoes.md#funcoes-uteis)
 
 **Convenção:** `first,last` formam [first,last), com fim excluído. Exemplos usam C++17; as páginas informam cabeçalhos, hipóteses e custos. Não use `.contains()`, `std::erase` ou `std::popcount` como se fossem C++17.

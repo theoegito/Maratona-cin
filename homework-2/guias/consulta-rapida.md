@@ -1,6 +1,6 @@
 # Consulta rápida - Homework 2
 
-[Início](../../README.md) · [Consulta de contest](../../consulta/README.md) · [lower_bound](../../consulta/funcoes/lower_bound.md) · [Funções A–Z](../../consulta/funcoes/README.md)
+[Início](../../README.md) · [Catálogo de funções](../../consulta/funcoes/README.md) · [Busca por palavras-chave](../../consulta/README.md) · [Algoritmos](../../consulta/algoritmos.md)
 
 ## Funções principais
 

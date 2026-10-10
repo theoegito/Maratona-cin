@@ -1,4 +1,16 @@
 {
+  "ajuste_foco_funcoes": {
+    "data": "2026-10-10",
+    "commit_base": "bd3b3c8cd0d188a5d8c298053a00da0d5e0b8983",
+    "escopo": "Índices e navegações priorizam funções em geral, com sintaxe, significado e retorno por categoria; exemplos C++17, códigos e PDFs inalterados.",
+    "navegacao": {
+      "markdown_files": 30,
+      "local_links_checked": 526,
+      "links_with_fragment": 178,
+      "link_errors": [],
+      "week1_content_preserved_with_allowed_navigation_changes": true
+    }
+  },
   "data": "2026-10-10",
   "commit_anterior": "bf0bd43c0af65de8fd5b852404de36044deb029c",
   "escopo": "Organização do README, navegação de contest e novas referências C++17; nenhuma edição de soluções, templates ou PDFs existentes.",

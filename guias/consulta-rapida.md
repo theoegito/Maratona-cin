@@ -1,6 +1,6 @@
 # C++ para maratona · consulta rápida
 
-[Início](../README.md) · [Consulta de contest](../consulta/README.md) · [lower_bound](../consulta/funcoes/lower_bound.md) · [Funções A–Z](../consulta/funcoes/README.md)
+[Início](../README.md) · [Catálogo de funções](../consulta/funcoes/README.md) · [Busca por palavras-chave](../consulta/README.md) · [Algoritmos](../consulta/algoritmos.md)
 
 **Primeira vez no assunto?** Abra o [guia explicado](guia-cpp.md). Esta página serve para lembrar a sintaxe. O [PDF](consulta-rapida.pdf) é uma versão para impressão.
 
